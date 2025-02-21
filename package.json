@@ -1,11 +1,11 @@
 {
-  "name": "com.compilerbutcher.foldericons",
+  "name": "com.compilerbutcher.editortools",
   "version": "1.0.0",
-  "displayName": "Folder Icons",
-  "description": "This package lets you to edit default folder icons",
-  "unity": "2022.3",
+  "displayName": "Editor Tools",
+  "description": "This package has a lot of unity editor tools like editing folder icons, adding descriptions to monobehaviour scripts",
+  "unity": "6000.0",
   "author": {
-    "name": "Compiler Butcher",
+    "name": "Mustafa Şentürk",
     "email": "metamorfikd@gmail.com"
   }
 }
