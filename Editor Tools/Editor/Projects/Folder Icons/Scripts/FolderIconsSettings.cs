@@ -9,6 +9,7 @@
     using UnityEditor.UIElements;
     using CompilerButcher.Editor.UIElements;
     using System.Linq;
+    using System.Xml.Linq;
 
     public sealed class FolderIconsSettings
     {
@@ -235,6 +236,8 @@
             rootVisualElement.Add(loadSaveRow);
             rootVisualElement.Add(resetEverythingButton);
 
+
+            rootVisualElement.Add(ChangeContent());
             return rootVisualElement;
         }
         private static VisualElement MakeItemForIconSetListView()
@@ -254,6 +257,30 @@
             element.Add(textField);
             element.Add(customTexture);
 
+            return element;
+        }
+
+        private static VisualElement ChangeContent()
+        {
+            VisualElement element = new VisualElement();
+
+            Button button = new Button();
+            button.text = "Change Content";
+            button.clicked += () =>
+            {
+                string path = (ProjectConstants.packageFolderPath + "\\" + "Scripts\\Deneme.cs").Replace("/", "\\");
+
+
+                string previousContent = File.ReadAllText(path);
+
+                string newLine = File.ReadLines(path).First().Replace("true", "false");
+                string result = newLine + previousContent.Remove(0, 8);
+
+                File.WriteAllText(path, result);
+
+            };
+
+            element.Add(button);
             return element;
         }
         private static void BindItemForIconSetListView(VisualElement element, int index)
