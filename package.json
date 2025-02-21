@@ -2,10 +2,10 @@
   "name": "com.compilerbutcher.editortools",
   "version": "1.0.0",
   "displayName": "Editor Tools",
-  "description": "This package has a lot of unity editor tools like editing folder icons, adding descriptions to monobehaviour scripts",
+  "description": "This package has two editor tools, custom Attributes and UIElements",
   "unity": "6000.0",
   "author": {
-    "name": "Mustafa Şentürk",
+    "name": "Compiler Destroyer",
     "email": "metamorfikd@gmail.com"
   }
 }
