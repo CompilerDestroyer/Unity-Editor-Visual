@@ -8,9 +8,25 @@ using UnityEditor.PackageManager;
 using UnityEditor.PackageManager.Requests;
 
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
+using Codice.CM.Common.Serialization.Replication;
 
 namespace CompilerDestroyer.Editor.FolderIcons
 {
+    public class ShowWin
+    {
+
+        [MenuItem("Tools/Check Packageshaha")]
+        static void GetWin()
+        {
+            PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
+
+            if (packageInfo ==  PackageSource.Embedded || packageInfo == PackageSource.Local || packageInfo == PackageSource.LocalTarball)
+            {
+                Debug.Log(packageInfo + "Is editable");
+            }
+        }
+
+    }
     internal sealed class IconManager
     {
         internal static PersistentFolderIconsData persistentFolderIconsData;
@@ -32,15 +48,15 @@ namespace CompilerDestroyer.Editor.FolderIcons
         static ListRequest listRequest;
         static string targetPackage = "com.compilerdestroyer.editortools";
         static EmbedRequest Request;
+        static PackageInfo packageInfo;
         private static void TrySearchEmbeddedPackage()
         {
-            PackageInfo editorToolsPackage = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName);
-
-            if (editorToolsPackage == null)
-            {
-                listRequest = Client.List();
-                EditorApplication.update += LProgress;
-            }
+            Debug.Log(packageInfo);
+            //if (packageInfo == null)
+            //{
+            //    listRequest = Client.List();
+            //    EditorApplication.update += LProgress;
+            //}
         }
         static void LProgress()
         {
@@ -64,6 +80,8 @@ namespace CompilerDestroyer.Editor.FolderIcons
                 }
 
                 EditorApplication.update -= LProgress;
+
+                Debug.Log(packageInfo);
             }
         }
 
