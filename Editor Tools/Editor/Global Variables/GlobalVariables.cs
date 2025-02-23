@@ -1,12 +1,17 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace CompilerButcher.Editor
+namespace CompilerDestroyer
 {
     public static class GlobalVariables
     {
         // Project Paths
-        public const string CompanyName = "Compiler Butcher";
+
+        public const string NickName = "Compiler Destroyer";
+        public const string packageName = "com.compilerdestroyer";
+        public const string UnityEditorVisualsPackageName = packageName + ".unityeditorvisuals";
+
+
         public const string ProjectsPath = "Packages/com.compilerbutcher.editortools/Editor Tools/Editor/Projects";
         public const string GUISkinsFolderPath = "Packages/com.compilerbutcher.editortools/Editor Tools/Editor/Data/GUISkins";
 

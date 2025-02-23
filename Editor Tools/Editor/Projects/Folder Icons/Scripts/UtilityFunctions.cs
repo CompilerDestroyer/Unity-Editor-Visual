@@ -1,4 +1,4 @@
-namespace CompilerButcher.Editor.FolderIcons
+namespace CompilerDestroyer.Editor.FolderIcons
 {
     using UnityEditor;
     using UnityEngine;
@@ -235,9 +235,9 @@ namespace CompilerButcher.Editor.FolderIcons
         // Check and create necessary folders if they are not exist
         internal static void CheckAndCreateIconFolders()
         {
-            string companyName = ProjectConstants.pluginsPath + "/" + GlobalVariables.CompanyName;
+            string companyName = ProjectConstants.pluginsPath + "/" + GlobalVariables.NickName;
             EnsureFolder(ProjectConstants.pluginsPath, "Assets", ProjectConstants.Plugins);
-            EnsureFolder(companyName, ProjectConstants.pluginsPath, GlobalVariables.CompanyName);
+            EnsureFolder(companyName, ProjectConstants.pluginsPath, GlobalVariables.NickName);
             EnsureFolder(ProjectConstants.pluginsFolderIconsPath, companyName, ProjectConstants.UnityFolderIcons);
             EnsureFolder(ProjectConstants.pluginsfolderIconsEditorPath, ProjectConstants.pluginsFolderIconsPath, "Editor");
             EnsureFolder(ProjectConstants.emptyIconFolderPath, ProjectConstants.pluginsfolderIconsEditorPath, ProjectConstants.EmptyColorFolderIcons);

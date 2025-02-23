@@ -1,4 +1,4 @@
-namespace CompilerButcher.Editor.FolderIcons
+namespace CompilerDestroyer.Editor.FolderIcons
 {
     using System.IO;
     using UnityEditor;

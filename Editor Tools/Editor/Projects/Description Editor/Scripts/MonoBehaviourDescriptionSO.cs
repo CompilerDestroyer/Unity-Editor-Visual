@@ -1,4 +1,4 @@
-namespace CompilerButcher.Editor.DescriptionEditor
+namespace CompilerDestroyer.Editor.DescriptionEditor
 {
     using System.Collections.Generic;
     using UnityEngine;

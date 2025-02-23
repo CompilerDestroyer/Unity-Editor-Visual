@@ -1,14 +1,14 @@
-﻿namespace CompilerButcher.Editor.ToolsManager
-{
-    using System.Collections.Generic;
-    using UnityEditor;
-    using UnityEngine.UIElements;
-    using System;
-    using System.IO;
-    using UnityEngine;
-    using CompilerButcher.Editor.UIElements;
-    using CompilerButcher.Editor.FolderIcons;
+﻿using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine.UIElements;
+using System;
+using System.IO;
+using UnityEngine;
+using CompilerDestroyer.Editor.UIElements;
+using CompilerDestroyer.Editor.FolderIcons;
 
+namespace CompilerDestroyer.Editor.ToolsManager
+{
     public sealed class EditorToolsSettings : EditorWindow
     {
         private const string documentationName = "Documentation";
@@ -20,7 +20,7 @@
         private List<TreeViewItemData<string>> projectSettingsList = new List<TreeViewItemData<string>>();
         private Dictionary<string, VisualElement> rootDict = new Dictionary<string, VisualElement>();
 
-        [MenuItem("Tools/Compiler Butcher/Editor Tools")]
+        [MenuItem("Tools/Compiler Destroyer/Editor Tools")]
         private static void ShowWindow()
         {
             EditorToolsSettings settingsWindow = GetWindow<EditorToolsSettings>();

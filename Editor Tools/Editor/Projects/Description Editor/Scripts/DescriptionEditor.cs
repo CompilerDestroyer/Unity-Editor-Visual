@@ -1,4 +1,4 @@
-﻿namespace CompilerButcher.Editor.DescriptionEditor
+﻿namespace CompilerDestroyer.Editor.DescriptionEditor
 {
     using UnityEditor;
     using UnityEditor.UIElements;

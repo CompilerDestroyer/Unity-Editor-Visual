@@ -1,9 +1,8 @@
-namespace CompilerButcher.Editor.UIElements
-{
-    using UnityEngine;
-    using UnityEngine.UIElements;
-    using CompilerButcher.Editor;
+using UnityEngine;
+using UnityEngine.UIElements;
 
+namespace CompilerDestroyer.Editor.UIElements
+{
     /// <summary>
     /// A custom visual element that represents a line. This line can be either horizontal or vertical, and its length and color can be customized.
     /// </summary>

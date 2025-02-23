@@ -1,4 +1,4 @@
-﻿namespace CompilerButcher.Editor.FolderIcons
+﻿namespace CompilerDestroyer.Editor.FolderIcons
 {
     using UnityEditor;
     using UnityEngine;
@@ -7,8 +7,9 @@
     using System.IO;
     using UnityEngine.UIElements;
     using UnityEditor.UIElements;
-    using CompilerButcher.Editor.UIElements;
     using System.Linq;
+    using CompilerDestroyer.Editor.UIElements;
+
     public sealed class FolderIconsSettings
     {
         private static ListView iconSetListView;

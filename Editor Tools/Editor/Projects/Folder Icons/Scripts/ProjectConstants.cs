@@ -1,14 +1,14 @@
-namespace CompilerButcher.Editor.FolderIcons
+namespace CompilerDestroyer.Editor.FolderIcons
 {
     using UnityEditor;
     using UnityEngine;
-    using CompilerButcher.Editor;
     internal static class ProjectConstants
     {
         // Package paths from "Packages/com.compilerbutcher.editortools/Folder Icons"
         internal const string packageFolderPath = GlobalVariables.ProjectsPath + "/Folder Icons";
         internal const string defaultUnityIconsPath = packageFolderPath + "/Default Icons/Default Unity Icons";
 
+        internal const string embeddedPackageName = "com.compilerdestroyer.editortools";
         internal const string pluginsPath = "Assets/Plugins";
         internal const string pluginsFolderIconsPath = pluginsPath + "/Compiler Butcher/Folder-Icons";
         internal const string pluginsfolderIconsEditorPath = pluginsFolderIconsPath + "/Editor";

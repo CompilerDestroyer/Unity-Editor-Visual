@@ -1,13 +1,16 @@
-namespace CompilerButcher.Editor.FolderIcons
-{
-    using UnityEditor;
-    using UnityEngine;
-    using System.Collections.Generic;
-    using System.IO;
-    using System;
-    using System.Linq;
-    using Codice.CM.Common;
+using UnityEditor;
+using UnityEngine;
+using System.Collections.Generic;
+using System.IO;
+using System;
+using System.Linq;
+using UnityEditor.PackageManager;
+using UnityEditor.PackageManager.Requests;
 
+using PackageInfo = UnityEditor.PackageManager.PackageInfo;
+
+namespace CompilerDestroyer.Editor.FolderIcons
+{
     internal sealed class IconManager
     {
         internal static PersistentFolderIconsData persistentFolderIconsData;
@@ -24,6 +27,66 @@ namespace CompilerButcher.Editor.FolderIcons
 
         internal static Dictionary<string, bool> isFolderFilledDict;
         [SerializeField] internal static List<string> iconSetNames;
+
+
+        static ListRequest listRequest;
+        static string targetPackage = "com.compilerdestroyer.editortools";
+        static EmbedRequest Request;
+        private static void TrySearchEmbeddedPackage()
+        {
+            PackageInfo editorToolsPackage = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName);
+
+            if (editorToolsPackage == null)
+            {
+                listRequest = Client.List();
+                EditorApplication.update += LProgress;
+            }
+
+        }
+        static void LProgress()
+        {
+            if (listRequest.IsCompleted)
+            {
+                if (listRequest.Status == StatusCode.Success)
+                {
+
+                    if (listRequest.Result.Any(pkg => pkg.name == targetPackage))
+                    {
+                        Embed(targetPackage);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("There is no: " + targetPackage + "Found!");
+                    }
+                }
+                else
+                {
+                    Debug.Log(listRequest.Error.message);
+                }
+
+                EditorApplication.update -= LProgress;
+            }
+        }
+
+        static void Embed(string inTarget)
+        {
+            Debug.Log("Embed('" + inTarget + "') called");
+            Request = Client.Embed(inTarget);
+            EditorApplication.update += Progress;
+        }
+
+        static void Progress()
+        {
+            if (Request.IsCompleted)
+            {
+                if (Request.Status == StatusCode.Success)
+                    Debug.Log("Embedded: " + Request.Result.packageId);
+                else if (Request.Status >= StatusCode.Failure)
+                    Debug.Log(Request.Error.message);
+
+                EditorApplication.update -= Progress;
+            }
+        }
 
 
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
@@ -87,6 +150,9 @@ namespace CompilerButcher.Editor.FolderIcons
             if (!SessionState.GetBool("isCheckedFolderEmptiness", false))
             {
                 SessionState.SetBool("isCheckedFolderEmptiness", true);
+
+                TrySearchEmbeddedPackage();
+
                 UtilityFunctions.CheckAllFoldersCurrentEmptiness(ref isFolderFilledDict);
 
                 if (persistentFolderIconsData.allFoldersPathList.Count == 0)

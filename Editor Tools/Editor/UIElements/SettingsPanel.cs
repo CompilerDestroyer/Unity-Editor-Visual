@@ -1,12 +1,11 @@
-namespace CompilerButcher.Editor.UIElements
-{
-    using System.Collections.Generic;
-    using UnityEditor.UIElements;
-    using UnityEngine.UIElements;
-    using UnityEngine;
-    using UnityEditor;
-    using CompilerButcher.Editor;
+using System.Collections.Generic;
+using UnityEditor.UIElements;
+using UnityEngine.UIElements;
+using UnityEngine;
+using UnityEditor;
 
+namespace CompilerDestroyer.Editor.UIElements
+{
     /// <summary>
     /// Represents a settings panel similar to Unity's Project Settings or Preferences. This panel requires a list of TreeViewItemData (for the left pane)
     /// and a dictionary of VisualElements (for the right pane) to function.
