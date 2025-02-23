@@ -41,7 +41,6 @@ namespace CompilerDestroyer.Editor.FolderIcons
                 listRequest = Client.List();
                 EditorApplication.update += LProgress;
             }
-
         }
         static void LProgress()
         {
