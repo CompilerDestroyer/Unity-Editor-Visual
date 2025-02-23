@@ -113,7 +113,10 @@ namespace CompilerButcher.Editor.FolderIcons
         // Create color folder texture, its data then assign it to relevant places. update folder empty dictionary
         private static void HandleCreatingColorFolderTexture(string selectedAssetGUID, ref Texture2D emptyTexture, ref Texture2D texture)
         {
-            Undo.RecordObject(IconManager.persistentFolderIconsData, "Create Folder Colors");
+            if (IconManager.persistentFolderIconsData != null)
+            {
+                Undo.RecordObject(IconManager.persistentFolderIconsData, "Create Folder Colors");
+            }
             UtilityFunctions.CheckAndCreateIconFolders();
 
 
@@ -241,6 +244,8 @@ namespace CompilerButcher.Editor.FolderIcons
             EnsureFolder(ProjectConstants.iconFolderPath, ProjectConstants.pluginsfolderIconsEditorPath, ProjectConstants.ColorFolderIcons);
             EnsureFolder(ProjectConstants.loadedIconSetPath, ProjectConstants.pluginsfolderIconsEditorPath, ProjectConstants.LoadedIconSets);
             EnsureFolder(ProjectConstants.loadedIconsPath, ProjectConstants.pluginsfolderIconsEditorPath, ProjectConstants.LoadedIcons);
+
+            IconManager.LoadOrCreatePersistentFolderIconData();
         }
 
         private static void EnsureFolder(string fullPath, string parentPath, string newFolderName)

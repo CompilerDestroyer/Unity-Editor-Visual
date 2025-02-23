@@ -2,6 +2,7 @@ namespace CompilerButcher.Editor.FolderIcons
 {
     using System.IO;
     using UnityEditor;
+    using UnityEngine;
 
     public sealed class FolderIconsPostproccesor : AssetPostprocessor
     {
@@ -42,6 +43,12 @@ namespace CompilerButcher.Editor.FolderIcons
                 for (int i = 0; i < deletedAssets.Length; i++)
                 {
                     string deletedAsset = deletedAssets[i];
+
+                    if (deletedAsset == ProjectConstants.persistentDataPath)
+                    {
+                        UtilityFunctions.CheckAndCreateIconFolders();
+                        Debug.LogWarning("You can't delete FolderIconsData.asset, Folder Icons project is depends on it! If you dont wan't it you can remove it.");
+                    }
                     if (IconManager.persistentFolderIconsData.allFoldersPathList.Contains(deletedAsset))
                     {
                         IconManager.persistentFolderIconsData.allFoldersPathList.Remove(deletedAsset);

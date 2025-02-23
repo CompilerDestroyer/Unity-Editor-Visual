@@ -1,5 +1,6 @@
 namespace CompilerButcher.Editor.DescriptionEditor
 {
+    using CompilerButcher.Editor;
     public static class ProjectConstants
     {
         internal static readonly string ProjectName = "Description Editor";

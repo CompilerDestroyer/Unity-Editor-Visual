@@ -7,12 +7,12 @@ namespace CompilerButcher.Editor.FolderIcons
     {
         // Package paths from "Packages/com.compilerbutcher.editortools/Folder Icons"
         internal const string packageFolderPath = GlobalVariables.ProjectsPath + "/Folder Icons";
-        internal const string persistentDataPath = GlobalVariables.ProjectsPath + "/Folder Icons/Data/FolderIconsData.asset";
         internal const string defaultUnityIconsPath = packageFolderPath + "/Default Icons/Default Unity Icons";
 
         internal const string pluginsPath = "Assets/Plugins";
         internal const string pluginsFolderIconsPath = pluginsPath + "/Compiler Butcher/Folder-Icons";
         internal const string pluginsfolderIconsEditorPath = pluginsFolderIconsPath + "/Editor";
+        internal const string persistentDataPath = pluginsfolderIconsEditorPath + "/FolderIconsData.asset";
         // -----------------------------------------------------------------
 
 

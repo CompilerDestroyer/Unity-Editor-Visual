@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   descriptionEditorEnabled: 1
   descriptionList:
-  - monoBehaviourPath: Assets/NewMonoBehaviourScript.cs
-    type: NewMonoBehaviourScript
+  - monoBehaviourPath: Assets/hehe.cs
+    type: hehe
     description: Double Click To Edit!
   butcherSkin: {fileID: 11400000, guid: 030028e6a47d1fc48828f2e5fe71deec, type: 2}

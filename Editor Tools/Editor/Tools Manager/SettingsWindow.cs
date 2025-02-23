@@ -1,4 +1,4 @@
-﻿namespace CompilerButcher.Editor
+﻿namespace CompilerButcher.Editor.ToolsManager
 {
     using System.Collections.Generic;
     using UnityEditor;

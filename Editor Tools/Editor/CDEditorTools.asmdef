@@ -1,0 +1,20 @@
+{
+    "name": "CDEditorTools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4768e9b40583049419af62b512f8cb34",
+        "GUID:37d0a96dd1fa216468c789d856b37eb5",
+        "GUID:8e299ce9af1993545850bb176e406bd4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

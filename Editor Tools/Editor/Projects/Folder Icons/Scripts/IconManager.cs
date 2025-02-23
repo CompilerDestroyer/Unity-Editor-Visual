@@ -6,6 +6,7 @@ namespace CompilerButcher.Editor.FolderIcons
     using System.IO;
     using System;
     using System.Linq;
+    using Codice.CM.Common;
 
     internal sealed class IconManager
     {
@@ -40,7 +41,6 @@ namespace CompilerButcher.Editor.FolderIcons
             EditorApplication.quitting += SavePersistentData;
         }
 
-        #region Initialize Folder Icons
         // Initialize inspector header contents
         private static void InitInspectorHeaderContents()
         {
@@ -56,16 +56,13 @@ namespace CompilerButcher.Editor.FolderIcons
                 headerContents.openButton = EditorGUIUtility.TrTextContent("Open");
             }
         }
-
+       
         // Check folders, create if it is not exist, load persistentData, create if it is not exist check all folders if they are empty or not
         // Finally update iconSetNames 
         internal static void AssetOperations()
         {
-            persistentFolderIconsData = AssetDatabase.LoadAssetAtPath<PersistentFolderIconsData>(ProjectConstants.persistentDataPath);
-
-            if (persistentFolderIconsData == null) Debug.LogError("PersistentFolderIconsData is not found at: " + ProjectConstants.persistentDataPath);
-
             UtilityFunctions.CheckAndCreateIconFolders();
+
 
             isFolderFilledDict = new Dictionary<string, bool>();
 
@@ -124,6 +121,77 @@ namespace CompilerButcher.Editor.FolderIcons
                 iconSetNames.Add(persistentFolderIconsData.iconSetDataList[i].iconSetName);
             }
         }
+        internal static void LoadOrCreatePersistentFolderIconData()
+        {
+            persistentFolderIconsData = AssetDatabase.LoadAssetAtPath<PersistentFolderIconsData>(ProjectConstants.persistentDataPath);
+
+            if (persistentFolderIconsData == null)
+            {
+                persistentFolderIconsData = ScriptableObject.CreateInstance<PersistentFolderIconsData>();
+                AssetDatabase.CreateAsset(persistentFolderIconsData, ProjectConstants.persistentDataPath);
+                AssetDatabase.ImportAsset(ProjectConstants.persistentDataPath);
+
+                AssetDatabase.SaveAssets();
+                AssetDatabase.Refresh();
+
+
+                isFolderFilledDict = new Dictionary<string, bool>();
+
+                if (persistentFolderIconsData.emptyDefaultFolderIcon == null)
+                {
+                    persistentFolderIconsData.emptyDefaultFolderIcon = AssetDatabase.LoadAssetAtPath<Texture2D>(ProjectConstants.dynamicDefaultEmptyFolderPath);
+                }
+                if (persistentFolderIconsData.defaultFolderIcon == null)
+                {
+                    persistentFolderIconsData.defaultFolderIcon = AssetDatabase.LoadAssetAtPath<Texture2D>(ProjectConstants.dynamicDefaultFolderPath);
+                }
+                if (persistentFolderIconsData.buttonBackgroundTexture == null)
+                {
+                    persistentFolderIconsData.buttonBackgroundTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(ProjectConstants.defaultButtonPath);
+                }
+                if (persistentFolderIconsData.buttonHoverTexture == null)
+                {
+                    persistentFolderIconsData.buttonHoverTexture = AssetDatabase.LoadAssetAtPath<Texture2D>(ProjectConstants.hoverButtonPath);
+                }
+
+
+                UtilityFunctions.CheckAllFoldersCurrentEmptiness(ref isFolderFilledDict);
+
+                if (persistentFolderIconsData.allFoldersPathList.Count == 0)
+                {
+                    string[] allFolders = AssetDatabase.FindAssets("t:DefaultAsset");
+
+                    persistentFolderIconsData.allFoldersPathList = new List<string>(allFolders.Length);
+
+                    for (int i = 0; i < allFolders.Length; i++)
+                    {
+                        persistentFolderIconsData.allFoldersPathList.Add(AssetDatabase.GUIDToAssetPath(allFolders[i]));
+                    }
+
+                    if (persistentFolderIconsData != null) EditorUtility.SetDirty(persistentFolderIconsData);
+                }
+                int count = persistentFolderIconsData.folderEmptinessList.Count;
+
+                for (int i = 0; i < count; i++)
+                {
+                    FolderEmptinessData folderEmptiness = persistentFolderIconsData.folderEmptinessList[i];
+                    string folderPath = folderEmptiness.folderPath;
+
+                    isFolderFilledDict.TryAdd(folderPath, folderEmptiness.isFolderEmpty);
+                }
+
+                iconSetNames = new List<string>(1);
+                iconSetNames.Add("None");
+
+                IconSetDataListWrapper iconSetDataListWrapper = new IconSetDataListWrapper();
+                iconSetDataListWrapper.iconSetName = "None";
+                iconSetDataListWrapper.iconSetData = null;
+                persistentFolderIconsData.iconSetDataList.Add(iconSetDataListWrapper);
+
+                SavePersistentData();
+            }
+
+        }
         // Save persistentData when exiting editor
         private static void SavePersistentData()
         {
@@ -134,8 +202,6 @@ namespace CompilerButcher.Editor.FolderIcons
             }
         }
         
-        #endregion
-
         internal static void LoadIcons(string selectedFile)
         {
             UtilityFunctions.CheckAndCreateIconFolders();
@@ -343,7 +409,6 @@ namespace CompilerButcher.Editor.FolderIcons
 
 
         }
-
         internal static void SaveIcons(string selectedFile)
         {
             // ------------------------------------------------ Save Icon Sets ------------------------------------------------------------------------------------------------

@@ -1,7 +1,9 @@
 {
-    "name": "CompilerButcher",
-    "rootNamespace": "CompilerButcher.Editor",
-    "references": [],
+    "name": "CDUIElements",
+    "rootNamespace": "",
+    "references": [
+        "GUID:37d0a96dd1fa216468c789d856b37eb5"
+    ],
     "includePlatforms": [
         "Editor"
     ],

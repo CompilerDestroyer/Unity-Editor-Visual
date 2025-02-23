@@ -9,8 +9,7 @@
     using UnityEditor.UIElements;
     using CompilerButcher.Editor.UIElements;
     using System.Linq;
-    using System.Xml.Linq;
-
+    using UnityEngine.AddressableAssets;
     public sealed class FolderIconsSettings
     {
         private static ListView iconSetListView;
@@ -20,8 +19,7 @@
 
         public static VisualElement FolderIconsSettingsVisualElement()
         {
-            IconManager.AssetOperations();
-
+            UtilityFunctions.CheckAndCreateIconFolders();
             VisualElement rootVisualElement = new VisualElement();
 
 
@@ -268,16 +266,8 @@
             button.text = "Change Content";
             button.clicked += () =>
             {
-                string path = (ProjectConstants.packageFolderPath + "\\" + "Scripts\\Deneme.cs").Replace("/", "\\");
-
-
-                string previousContent = File.ReadAllText(path);
-
-                string newLine = File.ReadLines(path).First().Replace("true", "false");
-                string result = newLine + previousContent.Remove(0, 8);
-
-                File.WriteAllText(path, result);
-
+                
+                    
             };
 
             element.Add(button);
@@ -327,7 +317,34 @@
 
             }
         }
+        //public static void MarkFolderAsAddressable(string folderPath, string groupName = "Default Local Group")
+        //{
+        //    //var settings = AddressableAssetSettingsDefaultObject.Settings;
+        //    if (settings == null)
+        //    {
+        //        Debug.LogError("❌ Addressable settings not found. Create Addressables via Window > Asset Management > Addressables > Groups.");
+        //        return;
+        //    }
 
+        //    var group = settings.FindGroup(groupName) ?? settings.DefaultGroup;
+        //    var assetGuids = AssetDatabase.FindAssets("", new[] { folderPath });
+
+        //    foreach (var guid in assetGuids)
+        //    {
+        //        string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+
+        //        // Skip subfolders
+        //        if (AssetDatabase.IsValidFolder(assetPath))
+        //            continue;
+
+        //        var entry = settings.CreateOrMoveEntry(guid, group);
+        //        entry.address = assetPath.Replace("Assets/", ""); // Use relative address
+        //        Debug.Log($"✅ Marked as addressable: {entry.address}");
+        //    }
+
+        //    AssetDatabase.SaveAssets();
+        //    Debug.Log($"🎉 Folder '{folderPath}' and its contents are now addressable.");
+        //}
         public static void RefreshIconSetListViewOnUndo()
         {
             iconSetListView.Unbind();
