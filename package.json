@@ -1,5 +1,5 @@
 {
-  "name": "com.compilerdestroyer.editortools",
+  "name": "com.compilerbutcher.editortools",
   "version": "1.0.0",
   "displayName": "Editor Tools",
   "description": "This package has two editor tools, custom Attributes and UIElements",
