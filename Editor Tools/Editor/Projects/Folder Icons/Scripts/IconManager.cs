@@ -8,7 +8,6 @@ using UnityEditor.PackageManager;
 using UnityEditor.PackageManager.Requests;
 
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
-using Codice.CM.Common.Serialization.Replication;
 
 namespace CompilerDestroyer.Editor.FolderIcons
 {
@@ -20,9 +19,9 @@ namespace CompilerDestroyer.Editor.FolderIcons
         {
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
-            if (packageInfo ==  PackageSource.Embedded || packageInfo == PackageSource.Local || packageInfo == PackageSource.LocalTarball)
+            if (packageInfo != PackageSource.Embedded || packageInfo != PackageSource.Local || packageInfo != PackageSource.LocalTarball)
             {
-                Debug.Log(packageInfo + "Is editable");
+                Debug.Log(packageInfo);
             }
         }
 
@@ -51,12 +50,14 @@ namespace CompilerDestroyer.Editor.FolderIcons
         static PackageInfo packageInfo;
         private static void TrySearchEmbeddedPackage()
         {
-            Debug.Log(packageInfo);
-            //if (packageInfo == null)
-            //{
-            //    listRequest = Client.List();
-            //    EditorApplication.update += LProgress;
-            //}
+
+                //if (packageInfo == null)
+                //{
+                //    listRequest = Client.List();
+                //    EditorApplication.update += LProgress;
+                //}
+
+
         }
         static void LProgress()
         {
