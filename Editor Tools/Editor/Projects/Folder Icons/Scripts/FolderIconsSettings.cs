@@ -9,7 +9,6 @@
     using UnityEditor.UIElements;
     using CompilerButcher.Editor.UIElements;
     using System.Linq;
-    using UnityEngine.AddressableAssets;
     public sealed class FolderIconsSettings
     {
         private static ListView iconSetListView;
