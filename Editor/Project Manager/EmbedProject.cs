@@ -21,9 +21,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
         {
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
-            if (packageInfo != PackageSource.Embedded || packageInfo != PackageSource.Local || packageInfo != PackageSource.LocalTarball)
+            if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
             {
-                Debug.Log(packageInfo);
+                Debug.Log("packa is embedding now!");
                 TrySearchEmbeddedPackage();
             }
         }
@@ -49,17 +49,15 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     }
                     else
                     {
-                        Debug.LogWarning("There is no: " + targetPackage + "Found!");
+                        //Debug.LogWarning("There is no: " + targetPackage + "Found!");
                     }
                 }
                 else
                 {
-                    Debug.Log(listRequest.Error.message);
+                    //Debug.Log(listRequest.Error.message);
                 }
 
                 EditorApplication.update -= ListProgress;
-
-                Debug.Log(packageInfo);
             }
         }
 
@@ -74,10 +72,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
             if (Request.IsCompleted)
             {
                 if (Request.Status == StatusCode.Success)
-                    Debug.Log("Embedded: " + Request.Result.packageId);
+                {
+                    //Debug.Log("Embedded: " + Request.Result.packageId);
+                }
                 else if (Request.Status >= StatusCode.Failure)
                 {
-
+                    
                 }
 
                 EditorApplication.update -= Progress;
