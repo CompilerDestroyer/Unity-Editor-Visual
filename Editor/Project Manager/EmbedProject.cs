@@ -5,6 +5,9 @@ using UnityEditor.PackageManager.Requests;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using System.Linq;
 using System.IO;
+using System.Diagnostics;
+
+using Debug = UnityEngine.Debug;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
@@ -13,18 +16,52 @@ namespace CompilerDestroyer.Editor.EditorVisual
         static ListRequest listRequest;
         static EmbedRequest Request;
         static PackageInfo packageInfo;
+        private const string packagePath = "Packages/com.compilerbutcher.editorvisual"; // Change this to your package folder
 
 
-        [MenuItem("Tools/Delete")]
-        static void aha()
+        [MenuItem("Tools/Clear EditorPrefs")]
+        public static void ClearAllEditorPrefs()
         {
-            string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject";
-            bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
+            EditorPrefs.DeleteAll();
+            Debug.Log("All EditorPrefs have been cleared.");
+        }
+        [MenuItem("Tools/Update Editor Visual")]
+        public static void UpdateEditorVisual()
+        {
+            if (!Directory.Exists(packagePath))
+            {
+                UnityEngine.Debug.LogError($"Package path not found: {packagePath}");
+                return;
+            }
 
+            // Run Git Pull
+            ProcessStartInfo psi = new ProcessStartInfo
+            {
+                FileName = "git",
+                Arguments = "pull origin main",
+                WorkingDirectory = packagePath,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            using (Process process = new Process { StartInfo = psi })
+            {
+                process.Start();
+                string output = process.StandardOutput.ReadToEnd();
+                string error = process.StandardError.ReadToEnd();
+                process.WaitForExit();
+
+                if (!string.IsNullOrEmpty(output))
+                    UnityEngine.Debug.Log($"Git Output:\n{output}");
+                if (!string.IsNullOrEmpty(error))
+                    UnityEngine.Debug.LogError($"Git Error:\n{error}");
+            }
+
+            // Refresh Unity assets after update
             AssetDatabase.Refresh();
-
-            Debug.Log(assetDeleted);
-
+            UnityEngine.Debug.Log("Package updated successfully!");
         }
 
         private static string unityEditorVisualInstalledEditorPref = "UnityEditorVisualInstalled";
