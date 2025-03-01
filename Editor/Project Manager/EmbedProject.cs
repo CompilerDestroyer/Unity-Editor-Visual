@@ -15,6 +15,18 @@ namespace CompilerDestroyer.Editor.EditorVisual
         static PackageInfo packageInfo;
 
 
+        [MenuItem("Tools/Delete")]
+        static void aha()
+        {
+            string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject";
+            bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
+
+            AssetDatabase.Refresh();
+
+            Debug.Log(assetDeleted);
+
+        }
+
 
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
@@ -73,12 +85,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
             {
                 if (Request.Status == StatusCode.Success)
                 {
-                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject";
+                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs";
                     bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
                     
                     AssetDatabase.Refresh();
-
-                    Debug.Log(assetDeleted);
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
