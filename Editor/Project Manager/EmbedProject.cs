@@ -16,7 +16,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         static ListRequest listRequest;
         static EmbedRequest Request;
         static PackageInfo packageInfo;
-        private const string packagePath = "Packages/com.compilerbutcher.editorvisual";
+        private const string packagePath = "Packages/com.compilerdestroyer.editorvisual";
 
 
         [MenuItem("Tools/Clear EditorPrefs")]
