@@ -2161,6 +2161,8 @@ MonoBehaviour:
     isFolderEmpty: 1
   - folderPath: "C:/Users/alcar/OneDrive/Masa\xFCst\xFC/Unity/Current Projects/Deneme/Assets"
     isFolderEmpty: 1
+  - folderPath: Packages
+    isFolderEmpty: 1
   allFoldersPathList:
   - Assets/Settings
   - Packages/com.unity.ai.navigation/Editor
@@ -3299,6 +3301,117 @@ MonoBehaviour:
   - Assets/anan/SampleScene.unity
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderPopupWindowContent.cs
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/IconManager.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsSettings.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/SettingsWindow.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/d_DarkEmptyFolder Icon.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Folder-Documents.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/UIElements/Line.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Knight-Group.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Filetype-PNG.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/lightDefaultbutton.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Mail.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/lightHoverbutton.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/RemoveScriptingDefineSymbolsFromBuild.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/EditorVisual.asmdef
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/d_DarkFolderOpened Icon.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Hourglass.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Knight-Network.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/darkHoverbutton.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Folder-Fonts.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Folder-Settings.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderAsset.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-DVD-Burner.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Ship-Wheel.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Desktop.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Bucket-Trash.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Filetype-Text.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-URL-History.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Help-Book.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Filetype-MP-3.256.png
+  - Packages/com.compilerdestroyer.editorvisual/README.md
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Recent-Documents.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Painting.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Folder-Red.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsPostproccesor.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Folder-Images.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Globe.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-RAM-Memory.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Wagon-Wheel.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Music-Gramophone.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/UtilityFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Network-Online.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Wooden-Barrel.256.png
+  - Packages/com.compilerdestroyer.editorvisual/package.json
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Printer.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/darkDefaultbutton.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Virus-Shield.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Disk-Drive.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/HeaderFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/UIElements/SettingsPanel.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/d_DarkFolder Icon.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/GlobalVariables.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Green-Books-Library.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Network-Offline.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Treasure-Chest.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Internet.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Knight-User.256.png
+  - Packages/com.compilerdestroyer.editorvisual
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/d_LightEmptyFolder Icon.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Bucket-Trash-Full.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Unity Icons/d_LightFolder Icon.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Filetype-DOC.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Scanner.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/Structures.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Default
+    Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Search-Text.256.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/PersistentFolderIconsData.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs
   iconSetDataList:
   - iconSetName: None
     iconSetData: []
