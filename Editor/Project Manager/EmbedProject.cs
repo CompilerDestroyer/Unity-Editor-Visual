@@ -64,16 +64,16 @@ namespace CompilerDestroyer.Editor.EditorVisual
         static void EmbedProject(string inTarget)
         {
             Request = Client.Embed(inTarget);
-            EditorApplication.update += Progress;
+            EditorApplication.update += EmbedProgress;
         }
 
-        static void Progress()
+        static void EmbedProgress()
         {
             if (Request.IsCompleted)
             {
                 if (Request.Status == StatusCode.Success)
                 {
-                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs";
+                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject";
                     bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
                     
                     AssetDatabase.Refresh();
@@ -85,7 +85,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     
                 }
 
-                EditorApplication.update -= Progress;
+                EditorApplication.update -= EmbedProgress;
             }
         }
     }
