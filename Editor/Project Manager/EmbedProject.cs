@@ -89,6 +89,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
                     
                     AssetDatabase.Refresh();
+                    Debug.Log(assetDeleted);
+                    Debug.Log("deleted");
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
