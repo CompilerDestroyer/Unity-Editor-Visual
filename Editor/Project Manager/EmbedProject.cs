@@ -10,7 +10,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
     public class ShowWin
     {
         static ListRequest listRequest;
-        static string targetPackage = "com.compilerdestroyer.editortools";
+        static string targetPackage = "com.compilerdestroyer.editorvisual";
         static EmbedRequest Request;
         static PackageInfo packageInfo;
 
