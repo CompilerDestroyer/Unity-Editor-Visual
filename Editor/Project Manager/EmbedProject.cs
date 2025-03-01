@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEditor.PackageManager.Requests;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using System.Linq;
+using System.IO;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
     public class ShowWin
     {
         static ListRequest listRequest;
-        static string targetPackage = "com.compilerdestroyer.editorvisual";
         static EmbedRequest Request;
         static PackageInfo packageInfo;
 
@@ -43,9 +43,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 if (listRequest.Status == StatusCode.Success)
                 {
 
-                    if (listRequest.Result.Any(pkg => pkg.name == targetPackage))
+                    if (listRequest.Result.Any(pkg => pkg.name == GlobalVariables.UnityEditorVisualPackageName))
                     {
-                        EmbedProject(targetPackage);
+                        EmbedProject(GlobalVariables.UnityEditorVisualPackageName);
                     }
                     else
                     {
@@ -73,7 +73,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
             {
                 if (Request.Status == StatusCode.Success)
                 {
-                    //Debug.Log("Embedded: " + Request.Result.packageId);
+                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs";
+                    bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
+                    
+                    AssetDatabase.Refresh();
+
+                    Debug.Log(assetDeleted);
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
