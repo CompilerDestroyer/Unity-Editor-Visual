@@ -65,7 +65,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         static void EmbedProject(string inTarget)
         {
-            Debug.Log("Embed('" + inTarget + "') called");
             Request = Client.Embed(inTarget);
             EditorApplication.update += Progress;
         }
@@ -77,7 +76,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 if (Request.Status == StatusCode.Success)
                     Debug.Log("Embedded: " + Request.Result.packageId);
                 else if (Request.Status >= StatusCode.Failure)
-                    Debug.Log(Request.Error.message);
+                {
+
+                }
 
                 EditorApplication.update -= Progress;
             }
