@@ -39,7 +39,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             {
                 FileName = "git",
                 Arguments = "pull origin main",
-                WorkingDirectory = packagePath,
+                WorkingDirectory = Path.GetFullPath(packagePath),
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,
