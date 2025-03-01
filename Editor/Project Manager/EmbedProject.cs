@@ -16,7 +16,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         static ListRequest listRequest;
         static EmbedRequest Request;
         static PackageInfo packageInfo;
-        private const string packagePath = "Packages/com.compilerbutcher.editorvisual"; // Change this to your package folder
+        private const string packagePath = "Packages/com.compilerbutcher.editorvisual";
 
 
         [MenuItem("Tools/Clear EditorPrefs")]
@@ -28,7 +28,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         [MenuItem("Tools/Update Editor Visual")]
         public static void UpdateEditorVisual()
         {
-            if (!Directory.Exists(packagePath))
+            if (!Directory.Exists(Path.GetFullPath(packagePath)))
             {
                 UnityEngine.Debug.LogError($"Package path not found: {packagePath}");
                 return;
