@@ -27,15 +27,24 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         }
 
-
+        private static string unityEditorVisualInstalledEditorPref = "UnityEditorVisualInstalled";
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
         {
+            if (!EditorPrefs.GetBool(unityEditorVisualInstalledEditorPref))
+            {
+                EditorPrefs.SetBool(unityEditorVisualInstalledEditorPref, true);
+            }
+            else
+            {
+                return;
+            }
+
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
             if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
             {
-                Debug.Log("packa is embedding now!");
+                Debug.Log("package is embedding now!");
                 TrySearchEmbeddedPackage();
             }
         }
