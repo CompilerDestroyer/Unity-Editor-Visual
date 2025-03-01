@@ -1,14 +1,11 @@
 {
-  "name": "com.compilerdestroyer.unityeditorvisual",
+  "name": "com.compilerdestroyer.editorvisual",
   "version": "1.0.0",
   "displayName": "Editor Visual",
-  "description": "This package changes default folder icons",
+  "description": "This package contain tools that change editor's visual.",
   "unity": "6000.0",
   "author": {
     "name": "Compiler Destroyer",
     "email": "metamorfikd@gmail.com"
-  },
-  "dependencies": {
-  "https://github.com/CompilerDestroyer/Unity-Editor.git": "1.0.0" 
-}
+  }
 }
