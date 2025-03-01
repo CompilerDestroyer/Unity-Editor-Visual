@@ -28,7 +28,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         [MenuItem("Tools/Update Editor Visual")]
         public static void UpdateEditorVisual()
         {
-            if (!Directory.Exists(Path.GetFullPath(packagePath)))
+            if (!AssetDatabase.IsValidFolder(packagePath))
             {
                 UnityEngine.Debug.LogError($"Package path not found: {packagePath}");
                 return;
