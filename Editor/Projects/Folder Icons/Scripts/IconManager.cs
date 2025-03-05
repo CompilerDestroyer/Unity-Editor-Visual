@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System;
 using System.Linq;
+using UnityEditor.PackageManager;
+using UnityEditor.PackageManager.Requests;
+using PackageInfo = UnityEditor.PackageManager.PackageInfo;
+
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
@@ -24,10 +28,24 @@ namespace CompilerDestroyer.Editor.EditorVisual
         internal static Dictionary<string, bool> isFolderFilledDict;
         [SerializeField] internal static List<string> iconSetNames;
 
-
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
+            PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
+
+            if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
+            {
+                persistentFolderIconsData.packageIsInstalledLocally = true;
+                SavePersistentData();
+            }
+            else
+            {
+                persistentFolderIconsData.packageIsInstalledLocally = false;
+                SavePersistentData();
+                Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
+                return;
+            }
+
             AssetOperations();
             InitInspectorHeaderContents();
 
@@ -61,7 +79,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
         internal static void AssetOperations()
         {
             UtilityFunctions.CheckAndCreateIconFolders();
-
 
             isFolderFilledDict = new Dictionary<string, bool>();
 

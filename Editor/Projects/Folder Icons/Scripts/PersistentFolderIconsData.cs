@@ -25,5 +25,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         [SerializeField] internal Texture2D buttonBackgroundTexture;
         [SerializeField] internal Texture2D buttonHoverTexture;
+
+        [SerializeField] internal bool packageIsInstalledLocally;
     }
 }

@@ -25,46 +25,11 @@ namespace CompilerDestroyer.Editor.EditorVisual
             EditorPrefs.DeleteAll();
             Debug.Log("All EditorPrefs have been cleared.");
         }
-        [MenuItem("Tools/Update Editor Visual")]
-        public static void UpdateEditorVisual()
-        {
-            if (!AssetDatabase.IsValidFolder(packagePath))
-            {
-                UnityEngine.Debug.LogError($"Package path not found: {packagePath}");
-                return;
-            }
 
-            // Run Git Pull
-            ProcessStartInfo psi = new ProcessStartInfo
-            {
-                FileName = "git",
-                Arguments = "pull origin main",
-                WorkingDirectory = Path.GetFullPath(packagePath),
-                RedirectStandardOutput = true,
-                RedirectStandardError = true,
-                UseShellExecute = false,
-                CreateNoWindow = true
-            };
-
-            using (Process process = new Process { StartInfo = psi })
-            {
-                process.Start();
-                string output = process.StandardOutput.ReadToEnd();
-                string error = process.StandardError.ReadToEnd();
-                process.WaitForExit();
-
-                if (!string.IsNullOrEmpty(output))
-                    UnityEngine.Debug.Log($"Git Output:\n{output}");
-                if (!string.IsNullOrEmpty(error))
-                    UnityEngine.Debug.LogError($"Git Error:\n{error}");
-            }
-
-            // Refresh Unity assets after update
-            AssetDatabase.Refresh();
-            UnityEngine.Debug.Log("Package updated successfully!");
-        }
 
         private static string unityEditorVisualInstalledEditorPref = "UnityEditorVisualInstalled";
+
+
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
         {
@@ -112,7 +77,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 }
                 else
                 {
-                    //Debug.Log(listRequest.Error.message);
+                    Debug.Log(listRequest.Error.message);
                 }
 
                 EditorApplication.update -= ListProgress;
