@@ -16,7 +16,7 @@ MonoBehaviour:
   tempGuidTextureListForIconSets: []
   folderEmptinessList:
   - folderPath: Assets
-    isFolderEmpty: 0
+    isFolderEmpty: 1
   - folderPath: Library/BuildInstructions
     isFolderEmpty: 0
   - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Settings
@@ -75,7 +75,7 @@ MonoBehaviour:
   - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Description
     isFolderEmpty: 1
   - folderPath: Assets/Settings
-    isFolderEmpty: 1
+    isFolderEmpty: 0
   - folderPath: Packages/com.unity.ai.navigation/Tests/Editor/Inspectors
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.render-pipelines.universal/Editor/AssetPostProcessors
@@ -2163,8 +2163,149 @@ MonoBehaviour:
     isFolderEmpty: 1
   - folderPath: Packages
     isFolderEmpty: 1
+  - folderPath: Assets/Textures
+    isFolderEmpty: 1
+  - folderPath: Assets/Textures/Detail
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Splat Maps
+    isFolderEmpty: 0
+  - folderPath: Assets/Scripts
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Parallax
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Circuitry
+    isFolderEmpty: 0
+  - folderPath: Assets/Shaders
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Cookies
+    isFolderEmpty: 0
+  - folderPath: Assets/Prefabs
+    isFolderEmpty: 0
+  - folderPath: Assets/Materials
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Lava
+    isFolderEmpty: 0
+  - folderPath: Assets/Scripts/Editor
+    isFolderEmpty: 0
+  - folderPath: Assets/Textures/Bumps
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Deferred Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Flat Wireframe Shading
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Fog Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/GPU Instancing
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Parallax
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Reflection Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Shadows Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/Scenes/Tessellation
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Materials
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Prefabs
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Deferred Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Tessellation
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Fog Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Reflection Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/GPU Instancing
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Shadows Scene
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Parallax
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scenes/Flat Wireframe Shading
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scripts
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Scripts/Editor
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Shaders
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Bumps
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Lava
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Parallax
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Detail
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Circuitry
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Cookies
+    isFolderEmpty: 0
+  - folderPath: Assets/New Folder/Textures/Splat Maps
+    isFolderEmpty: 0
+  - folderPath: Assets/Tesellation/Textures
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Shaders
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scripts
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Bumps
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Materials
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Lava
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Deferred Scene
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Tessellation
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Fog Scene
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Reflection Scene
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/GPU Instancing
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Parallax
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Detail
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Shadows Scene
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Circuitry
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Prefabs
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Cookies
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Parallax
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scenes/Flat Wireframe Shading
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Textures/Splat Maps
+    isFolderEmpty: 1
+  - folderPath: Assets/Tesellation/Scripts/Editor
+    isFolderEmpty: 1
+  - folderPath: Assets/Textures/Sandstone Blocks Tiles
+    isFolderEmpty: 1
+  - folderPath: Assets/Textures/Stone Tiles
+    isFolderEmpty: 1
+  - folderPath: Assets/Textures/Laminate Tiles
+    isFolderEmpty: 1
+  - folderPath: Assets/Textures/Square Floor Tiles
+    isFolderEmpty: 1
   allFoldersPathList:
-  - Assets/Settings
   - Packages/com.unity.ai.navigation/Editor
   - Packages/com.unity.ai.navigation/Editor/ConversionSystem
   - Packages/com.unity.ai.navigation/Editor/Updater
@@ -3412,6 +3553,76 @@ MonoBehaviour:
     Icons/Default Icon Sets/Ancient Legends/George-Ui-Ancient-Legend-Search-Text.256.png
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/PersistentFolderIconsData.cs
   - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+  - Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  - Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx
+  - ProjectSettings/GraphicsSettings.asset
+  - Assets/Tesellation/Textures/Circuitry
+  - Assets/Tesellation/Shaders/My First Lighting Shader.shader
+  - Assets/Tesellation/Textures/Bumps
+  - Assets/Tesellation/Shaders/DeferredShading.shader
+  - Assets/Tesellation/Textures
+  - Assets/Tesellation/Prefabs
+  - Assets/Tesellation/Scenes/Deferred Scene
+  - Assets/Tesellation/Textures/Parallax
+  - Assets/Tesellation/Scenes
+  - Assets/Tesellation/Scenes/GPU Instancing
+  - Assets/Tesellation/Scenes/Reflection Scene
+  - Assets/Tesellation/Scripts/Editor
+  - Assets/Tesellation/Textures/Cookies
+  - Assets/Tesellation/Materials
+  - Assets/Tesellation/Textures/Splat Maps
+  - Assets/Tesellation/Scenes/Shadows Scene
+  - Assets/Tesellation/Scripts
+  - Assets/Tesellation/Shaders/Tessellation Shader.shader
+  - Assets/Tesellation
+  - Assets/Tesellation/Scenes/Flat Wireframe Shading
+  - Assets/Tesellation/Shaders/Flat Wireframe Shader.shader
+  - Assets/Tesellation/Shaders
+  - Assets/Tesellation/Scenes/Tessellation
+  - Assets/Tesellation/Textures/Lava
+  - Assets/Tesellation/Scenes/Parallax
+  - Assets/Tesellation/Scenes/Fog Scene
+  - Assets/Tesellation/Textures/Detail
+  - Assets/Tesellation/Scripts/Editor/MyLightingShaderGUI.cs
+  - Assets/Tesellation/Scripts/TangentSpaceVisualizer.cs
+  - Assets/Tesellation/Scripts/GPUInstancingTest.cs
+  - Assets/Tesellation/Scripts/DeferredFogEffect.cs
+  - Assets/Tesellation/Scripts/EmissiveOscillator.cs
+  - Assets/Tesellation/Materials/Tessellation.mat
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_ao_4k.exr
+  - Assets/Textures/Stone Tiles/stone_tiles_nor_gl_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_disp_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_nor_dx_4k.exr
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_nor_gl_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_ao_4k.exr
+  - Assets/Textures/Square Floor Tiles/square_floor_disp_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/Sandstone mat.mat
+  - Assets/Textures/Square Floor Tiles/square_floor_nor_dx_4k.exr
+  - Assets/Textures/Stone Tiles/stone_tiles_disp_4k.exr
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_rough_4k.exr
+  - Assets/Textures/Stone Tiles/stone_tiles_rough_4k.exr
+  - Assets/Textures/Square Floor Tiles/Square Floor mat.mat
+  - Assets/Textures/Stone Tiles/stone_tiles_arm_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_diff_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_spec_4k.exr
+  - Assets/Textures/Square Floor Tiles/square_floor_diff_4k.exr
+  - Assets/Textures/Square Floor Tiles
+  - Assets/Textures/Stone Tiles/stone_tiles_diff_4k.exr
+  - Assets/Textures/Laminate Tiles
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_diff_4k.exr
+  - Assets/Textures/Square Floor Tiles/square_floor_ao_4k.exr
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_arm_4k.exr
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_disp_4k.exr
+  - Assets/Textures/Stone Tiles/stone_tiles_ao_4k.exr
+  - Assets/Textures/Laminate Tiles/laminate_floor_02_nor_dx_4k.exr
+  - Assets/Textures/Sandstone Blocks Tiles/sandstone_blocks_08_rough_4k.exr
+  - Assets/Textures/Square Floor Tiles/square_floor_rough_4k.exr
+  - Assets/Textures/Stone Tiles
+  - Assets/Textures/Stone Tiles/stone_tiles_nor_dx_4k.exr
+  - Assets/Textures/Laminate Tiles/Laminate mat.mat
+  - Assets/Textures
   iconSetDataList:
   - iconSetName: None
     iconSetData: []
