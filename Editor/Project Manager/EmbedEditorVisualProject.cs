@@ -78,7 +78,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     File.Delete(thisScriptPath);
                     File.Delete(thisScriptPath + ".meta");
                     AssetDatabase.Refresh();
-                    Debug.Log("deleted");
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
