@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -14,6 +15,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // Custom Editor GUIStyle Names
         public const string HeaderLabelGUIStyleName = "Header Label";
         public const string FoldoutHeaderGUIStyleName = "Foldout Header";
+
+        // Project Variables
+        public static readonly string ProjectTempInstalledFilePath = Path.GetDirectoryName(Application.dataPath) + Path.DirectorySeparatorChar + UnityEditorVisualPackageName + ".installed";
 
 
         private static readonly Color defaultLineDarkColor = new Color(0.1215686f, 0.1215686f, 0.1215686f, 1f);

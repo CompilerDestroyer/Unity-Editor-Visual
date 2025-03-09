@@ -19,6 +19,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
         private const string packagePath = "Packages/com.compilerdestroyer.editorvisual";
 
 
+        [MenuItem("Tools/a")]
+        static void haha()
+        {
+
+        }
+
         [MenuItem("Tools/Clear EditorPrefs")]
         public static void ClearAllEditorPrefs()
         {
@@ -26,9 +32,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             Debug.Log("All EditorPrefs have been cleared.");
         }
 
-
         private static string unityEditorVisualInstalledEditorPref = "UnityEditorVisualInstalled";
-
 
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
