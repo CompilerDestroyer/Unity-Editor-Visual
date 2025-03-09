@@ -5,7 +5,6 @@ using System.IO;
 using System;
 using System.Linq;
 using UnityEditor.PackageManager;
-using UnityEditor.PackageManager.Requests;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 
 
@@ -13,6 +12,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
 {
     internal sealed class IconManager
     {
+        [MenuItem("Tools/A")]
+        static void haha()
+        {
+
+            
+        }
         internal static PersistentFolderIconsData persistentFolderIconsData;
 
         // Inspector header contents

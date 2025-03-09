@@ -1,6 +1,5 @@
 using UnityEditor.PackageManager;
 using UnityEditor;
-using UnityEngine;
 using UnityEditor.PackageManager.Requests;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using System.Linq;
@@ -12,8 +11,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
 {
     public class EmbedEditorVisualProject
     {
-        static ListRequest listRequest;
-        static EmbedRequest Request;
+        private static ListRequest listRequest;
+        private static EmbedRequest Request;
+        private static readonly string thisScriptPath = Path.GetFullPath(GlobalVariables.ProjectManagerPath) + Path.DirectorySeparatorChar + "EmbedEditorVisualProject.cs";
+
 
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
@@ -30,7 +31,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
             }
             else
             {
-                Debug.Log("Else worked");
+                File.Delete(thisScriptPath);
+                File.Delete(thisScriptPath + ".meta");
+                AssetDatabase.Refresh();
             }
         }
 
@@ -49,10 +52,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     if (listRequest.Result.Any(pkg => pkg.name == GlobalVariables.UnityEditorVisualPackageName))
                     {
                         EmbedProject(GlobalVariables.UnityEditorVisualPackageName);
-                    }
-                    else
-                    {
-                        //Debug.LogWarning("There is no: " + targetPackage + "Found!");
                     }
                 }
                 else
@@ -76,16 +75,14 @@ namespace CompilerDestroyer.Editor.EditorVisual
             {
                 if (Request.Status == StatusCode.Success)
                 {
-                    string currentScriptPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/EmbedProject.cs";
-                    bool assetDeleted = AssetDatabase.DeleteAsset(currentScriptPath);
-                    
+                    File.Delete(thisScriptPath);
+                    File.Delete(thisScriptPath + ".meta");
                     AssetDatabase.Refresh();
-                    Debug.Log(assetDeleted);
                     Debug.Log("deleted");
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
-                    
+
                 }
 
                 EditorApplication.update -= EmbedProgress;
