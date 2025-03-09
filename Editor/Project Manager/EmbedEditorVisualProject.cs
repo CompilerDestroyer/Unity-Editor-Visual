@@ -79,10 +79,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     File.Delete(thisScriptPath + ".meta");
                     AssetDatabase.Refresh();
                 }
-                else if (Request.Status >= StatusCode.Failure)
-                {
-
-                }
 
                 EditorApplication.update -= EmbedProgress;
             }
