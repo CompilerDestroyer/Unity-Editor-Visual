@@ -2,6 +2,7 @@ using CompilerDestroyer.Editor.EditorVisual;
 using System.IO;
 using UnityEditor;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
+using UnityEditor.PackageManager;
 
 public class ProjectInstalled
 {
