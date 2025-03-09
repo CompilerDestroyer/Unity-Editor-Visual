@@ -2023,7 +2023,7 @@ MonoBehaviour:
   - folderPath: Packages/com.unity.ide.visualstudio/Editor/Messaging
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager
-    isFolderEmpty: 1
+    isFolderEmpty: 0
   - folderPath: Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors/GraphicsSettingsStrippers
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/NUnitExtension

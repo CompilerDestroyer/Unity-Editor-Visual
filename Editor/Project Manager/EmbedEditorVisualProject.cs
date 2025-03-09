@@ -31,9 +31,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
             }
             else
             {
-                File.Delete(thisScriptPath);
-                File.Delete(thisScriptPath + ".meta");
-                AssetDatabase.Refresh();
+                //File.Delete(thisScriptPath);
+                //File.Delete(thisScriptPath + ".meta");
+                //AssetDatabase.Refresh();
             }
         }
 
@@ -78,6 +78,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
                     File.Delete(thisScriptPath);
                     File.Delete(thisScriptPath + ".meta");
                     AssetDatabase.Refresh();
+                }
+                else if (Request.Status >= StatusCode.Failure)
+                {
+
                 }
 
                 EditorApplication.update -= EmbedProgress;
