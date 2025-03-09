@@ -3,11 +3,18 @@ using System.IO;
 using UnityEditor;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using UnityEditor.PackageManager;
-using UnityEngine;
+using System.Linq;
 
+[InitializeOnLoad]
 public class ProjectInstalled
 {
-    [InitializeOnLoadMethod]
+    static ProjectInstalled()
+    {
+        CreateInstalledTempFile();
+
+        Events.registeringPackages += DeleteInstalledTempFile;
+    }
+
     private static void CreateInstalledTempFile()
     {
         if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
@@ -19,5 +26,22 @@ public class ProjectInstalled
                 File.WriteAllText(GlobalVariables.ProjectTempInstalledFilePath, "Already Embedded Package!");
             }
         }
+    }
+
+
+    private static void DeleteInstalledTempFile(PackageRegistrationEventArgs args)
+    {
+        PackageInfo packageInfo = args.removed.First((x) => x.name == GlobalVariables.UnityEditorVisualPackageName);
+
+        if (packageInfo != null)
+        {
+            File.Delete(GlobalVariables.ProjectTempInstalledFilePath);
+            Events.registeringPackages -= DeleteInstalledTempFile;
+        }
+
+        //if (packageInfo.source != PackageSource.Embedded && packageInfo.source != PackageSource.Local && packageInfo.source != PackageSource.LocalTarball)
+        //{
+
+        //}
     }
 }
