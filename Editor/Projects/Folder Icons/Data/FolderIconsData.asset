@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ecd7a7430467c458c6429fd5020d17, type: 3}
   m_Name: FolderIconsData
   m_EditorClassIdentifier: 
-  guidTextureList: []
+  guidTextureList:
+  - guid: ffe784d155260fe4199558c587f5bd3a
+    textureData:
+      color: {r: 1, g: 0.4292453, b: 0.4292453, a: 0}
+      emptyFolderTexture: {fileID: 2800000, guid: 242f9d1c1f0a5ca4994741657ce6c664, type: 3}
+      folderTexture: {fileID: 2800000, guid: e6b6ba1aa30dada4999487aebdde864c, type: 3}
+      customTexture: {fileID: 0}
   tempGuidTextureListForIconSets: []
   folderEmptinessList:
   - folderPath: Assets
@@ -357,7 +363,7 @@ MonoBehaviour:
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
       Icons/Data/Empty Color Folder Icons
-    isFolderEmpty: 0
+    isFolderEmpty: 1
   - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs
@@ -1148,7 +1154,7 @@ MonoBehaviour:
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
       Icons/Data/Color Folder Icons
-    isFolderEmpty: 0
+    isFolderEmpty: 1
   - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Shim
@@ -3804,6 +3810,10 @@ MonoBehaviour:
   - Assets/Tesellation
   - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/GitDependencyManager.cs
   - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager/ProjectInstalled.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data/Empty
+    Color Folder Icons/ffe784d155260fe4199558c587f5bd3a.png
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data/Color
+    Folder Icons/ffe784d155260fe4199558c587f5bd3a.png
   iconSetDataList:
   - iconSetName: None
     iconSetData: []

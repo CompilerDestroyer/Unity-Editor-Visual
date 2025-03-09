@@ -5,63 +5,39 @@ using UnityEditor.PackageManager.Requests;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using System.Linq;
 using System.IO;
-using System.Diagnostics;
 
 using Debug = UnityEngine.Debug;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
-    public class ShowWin
+    public class EmbedEditorVisualProject
     {
         static ListRequest listRequest;
         static EmbedRequest Request;
-        static PackageInfo packageInfo;
-        private const string packagePath = "Packages/com.compilerdestroyer.editorvisual";
-
-
-        [MenuItem("Tools/a")]
-        static void haha()
-        {
-
-        }
-
-        [MenuItem("Tools/Clear EditorPrefs")]
-        public static void ClearAllEditorPrefs()
-        {
-            EditorPrefs.DeleteAll();
-            Debug.Log("All EditorPrefs have been cleared.");
-        }
-
-        private static string unityEditorVisualInstalledEditorPref = "UnityEditorVisualInstalled";
 
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
         {
-            if (!EditorPrefs.GetBool(unityEditorVisualInstalledEditorPref))
-            {
-                EditorPrefs.SetBool(unityEditorVisualInstalledEditorPref, true);
-            }
-            else
-            {
-                return;
-            }
+            if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
+
 
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
             if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
             {
-                Debug.Log("package is embedding now!");
+                Debug.Log(GlobalVariables.UnityEditorVisualPackageName + " is embedding now!");
                 TrySearchEmbeddedPackage();
+            }
+            else
+            {
+                Debug.Log("Else worked");
             }
         }
 
         private static void TrySearchEmbeddedPackage()
         {
-            if (packageInfo == null)
-            {
-                listRequest = Client.List();
-                EditorApplication.update += ListProgress;
-            }
+            listRequest = Client.List();
+            EditorApplication.update += ListProgress;
         }
         static void ListProgress()
         {
