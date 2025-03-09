@@ -31,9 +31,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
             }
             else
             {
-                //File.Delete(thisScriptPath);
-                //File.Delete(thisScriptPath + ".meta");
-                //AssetDatabase.Refresh();
+                File.Delete(thisScriptPath);
+                File.Delete(thisScriptPath + ".meta");
+                AssetDatabase.Refresh();
             }
         }
 
