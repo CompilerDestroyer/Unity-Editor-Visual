@@ -48,7 +48,6 @@ public class GitDependencyManager
         }
         if (dependencies.Count == 0)
         {
-            Debug.LogWarning("package json file is does not exist.");
             return;
         }
 

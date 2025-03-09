@@ -31,10 +31,13 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
+            AssetOperations();
+
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
             if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
             {
+                Debug.Log("Project is installed with locally");
                 persistentFolderIconsData.packageIsInstalledLocally = true;
                 SavePersistentData();
             }
@@ -45,8 +48,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
                 return;
             }
-
-            AssetOperations();
             InitInspectorHeaderContents();
 
 
