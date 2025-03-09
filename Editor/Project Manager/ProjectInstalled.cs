@@ -16,12 +16,7 @@ public class ProjectInstalled
 
             if (packageInfo == PackageSource.Embedded || packageInfo == PackageSource.Local || packageInfo == PackageSource.LocalTarball)
             {
-                Debug.Log("worked");
                 File.WriteAllText(GlobalVariables.ProjectTempInstalledFilePath, "Already Embedded Package!");
-            }
-            else
-            {
-                Debug.Log("else worked");
             }
         }
     }
