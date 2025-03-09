@@ -3812,4 +3812,4 @@ MonoBehaviour:
   defaultFolderIcon: {fileID: 2800000, guid: d767b843737545944bb1a8e9fad7ad9e, type: 3}
   buttonBackgroundTexture: {fileID: 2800000, guid: feb159667e232b344a5a996e36702007, type: 3}
   buttonHoverTexture: {fileID: 2800000, guid: 181b9dc5e4e4f6f4cbb9dd29e9d5a78c, type: 3}
-  packageIsInstalledLocally: 0
+  packageIsInstalledLocally: 1

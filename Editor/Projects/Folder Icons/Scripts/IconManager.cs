@@ -35,19 +35,21 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
 
-            if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
+            if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
-                Debug.Log("Project is installed with locally");
-                persistentFolderIconsData.packageIsInstalledLocally = true;
-                SavePersistentData();
+                if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
+                {
+                    persistentFolderIconsData.packageIsInstalledLocally = false;
+                    SavePersistentData();
+                    Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
+                }
+                else
+                {
+                    persistentFolderIconsData.packageIsInstalledLocally = true;
+                    SavePersistentData();
+                }
             }
-            else
-            {
-                persistentFolderIconsData.packageIsInstalledLocally = false;
-                SavePersistentData();
-                Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
-                return;
-            }
+
             InitInspectorHeaderContents();
 
 

@@ -18,7 +18,7 @@ public class GitDependencyManager
     [InitializeOnLoadMethod]
     private static void ApplyOnPackageRegistered()
     {
-        if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
+        if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
         {
             Events.registeredPackages += OnPackagesRegistered;
         }
