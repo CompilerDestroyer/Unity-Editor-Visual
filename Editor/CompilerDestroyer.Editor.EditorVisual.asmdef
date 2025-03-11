@@ -1,10 +1,7 @@
 {
     "name": "EditorVisual",
     "rootNamespace": "",
-    "references": [
-        "GUID:8e299ce9af1993545850bb176e406bd4",
-        "GUID:057dcbd5bd74fa849adc5ac79b51f553"
-    ],
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],
@@ -14,12 +11,6 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [
-        {
-            "name": "com.compilerdestroyer.editor",
-            "expression": "1.0.0",
-            "define": "EDITOR_TOOLS"
-        }
-    ],
+    "versionDefines": [],
     "noEngineReferences": false
 }

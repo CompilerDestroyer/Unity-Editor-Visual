@@ -39,10 +39,5 @@ public class ProjectInstalled
             File.Delete(GlobalVariables.ProjectTempInstalledFilePath);
             Events.registeringPackages -= DeleteInstalledTempFile;
         }
-
-        //if (packageInfo.source != PackageSource.Embedded && packageInfo.source != PackageSource.Local && packageInfo.source != PackageSource.LocalTarball)
-        //{
-
-        //}
     }
 }
