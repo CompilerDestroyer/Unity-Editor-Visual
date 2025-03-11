@@ -12,12 +12,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 {
     internal sealed class IconManager
     {
-        [MenuItem("Tools/A")]
-        static void haha()
-        {
-
-            
-        }
         internal static PersistentFolderIconsData persistentFolderIconsData;
 
         // Inspector header contents
@@ -32,6 +26,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         internal static Dictionary<string, bool> isFolderFilledDict;
         [SerializeField] internal static List<string> iconSetNames;
+
 
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()

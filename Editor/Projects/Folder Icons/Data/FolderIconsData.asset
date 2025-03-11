@@ -2023,7 +2023,7 @@ MonoBehaviour:
   - folderPath: Packages/com.unity.ide.visualstudio/Editor/Messaging
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager
-    isFolderEmpty: 0
+    isFolderEmpty: 1
   - folderPath: Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors/GraphicsSettingsStrippers
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/NUnitExtension
@@ -2314,6 +2314,9 @@ MonoBehaviour:
   - folderPath: Assets/Editor
     isFolderEmpty: 0
   - folderPath: Assets/Tessellation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual
+      UIElements
     isFolderEmpty: 1
   allFoldersPathList:
   - Packages/com.unity.ai.navigation/Editor

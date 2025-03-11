@@ -7,8 +7,7 @@ using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using UnityEditor.PackageManager.Requests;
 using System.Collections.Generic;
 using System.Linq;
-using CompilerDestroyer.Editor.EditorVisual;
-
+using CompilerDestroyer.Editor;
 public class GitDependencyManager
 {
     private static AddAndRemoveRequest packageInstallationRequest;

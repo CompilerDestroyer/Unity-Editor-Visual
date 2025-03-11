@@ -538,6 +538,4 @@ namespace CompilerDestroyer.Editor.EditorVisual
             [SerializeField] internal List<T> objectList;
         }
     }
-
-
 }

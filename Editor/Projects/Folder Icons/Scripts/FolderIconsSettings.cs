@@ -6,6 +6,7 @@ using System.IO;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using System.Linq;
+using CompilerDestroyer.Editor.UIElements;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
@@ -316,34 +317,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             }
         }
-        //public static void MarkFolderAsAddressable(string folderPath, string groupName = "Default Local Group")
-        //{
-        //    //var settings = AddressableAssetSettingsDefaultObject.Settings;
-        //    if (settings == null)
-        //    {
-        //        Debug.LogError("❌ Addressable settings not found. Create Addressables via Window > Asset Management > Addressables > Groups.");
-        //        return;
-        //    }
-
-        //    var group = settings.FindGroup(groupName) ?? settings.DefaultGroup;
-        //    var assetGuids = AssetDatabase.FindAssets("", new[] { folderPath });
-
-        //    foreach (var guid in assetGuids)
-        //    {
-        //        string assetPath = AssetDatabase.GUIDToAssetPath(guid);
-
-        //        // Skip subfolders
-        //        if (AssetDatabase.IsValidFolder(assetPath))
-        //            continue;
-
-        //        var entry = settings.CreateOrMoveEntry(guid, group);
-        //        entry.address = assetPath.Replace("Assets/", ""); // Use relative address
-        //        Debug.Log($"✅ Marked as addressable: {entry.address}");
-        //    }
-
-        //    AssetDatabase.SaveAssets();
-        //    Debug.Log($"🎉 Folder '{folderPath}' and its contents are now addressable.");
-        //}
         public static void RefreshIconSetListViewOnUndo()
         {
             iconSetListView.Unbind();
@@ -576,5 +549,3 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
     }
 }
-
-

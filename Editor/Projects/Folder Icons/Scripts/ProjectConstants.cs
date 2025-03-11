@@ -8,6 +8,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         internal const string defaultUnityIconsPath = packageFolderPath + "/Default Icons/Default Unity Icons";
 
         internal const string embeddedPackageName = "com.compilerdestroyer.editorvisual";
+        internal const string dependencyPackages = "com.compilerdestroyer.editortools";
         internal const string dataPath = packageFolderPath + "/Data";
 
 

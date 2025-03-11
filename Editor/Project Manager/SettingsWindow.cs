@@ -4,10 +4,11 @@ using UnityEngine.UIElements;
 using System;
 using System.IO;
 using UnityEngine;
+using CompilerDestroyer.Editor.UIElements;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
-    public sealed class EditorToolsSettings : EditorWindow
+    public sealed class EditorVisualSettingsWindow : EditorWindow
     {
         private const string documentationName = "Documentation";
         private const string folderIconsName = "Folder Icons";
@@ -21,23 +22,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
         [MenuItem("Tools/Compiler Destroyer/Editor Visual")]
         private static void ShowWindow()
         {
-            EditorToolsSettings settingsWindow = GetWindow<EditorToolsSettings>();
+            EditorVisualSettingsWindow settingsWindow = GetWindow<EditorVisualSettingsWindow>();
             settingsWindow.titleContent.text = "Editor Visual Settings";
             settingsWindow.titleContent.image = EditorGUIUtility.FindTexture("SettingsIcon");
             settingsWindow.minSize = minWindowSize;
-            
-            //if (!SessionState.GetBool("IsCompilerButcherWindowInitiated", false))
-            //{
-            //    Rect mainEditorWindowRect = EditorGUIUtility.GetMainWindowPosition();
-            //    Debug.Log("hee");
-            //    // Calculate the center position for the editor window
-            //    float centerX = mainEditorWindowRect.x + (mainEditorWindowRect.width - 734f) / 2;
-            //    float centerY = mainEditorWindowRect.y + (mainEditorWindowRect.height - 438f) / 2;
-
-            //    settingsWindow.position = new Rect(centerX, centerY, 734f, 438f);
-
-            //    SessionState.SetBool("IsCompilerButcherWindowInitiated", true);
-            //}
         }
         private void OnEnable()
         {

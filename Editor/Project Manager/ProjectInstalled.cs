@@ -4,6 +4,7 @@ using UnityEditor;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using UnityEditor.PackageManager;
 using System.Linq;
+using CompilerDestroyer.Editor;
 
 [InitializeOnLoad]
 public class ProjectInstalled

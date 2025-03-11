@@ -85,7 +85,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // When closing this PopupWindowContent Save all textures and draw them in the main DrawFolders function to make it persistent
         public override void OnClose()
         {
-
             if (IconManager.projectCurrentEmptyFolderTexture != null)
             {
                 PopupWindowContentFunctions.HandleColorFoldersTexture(currentAssetGUID);
