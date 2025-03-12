@@ -11,7 +11,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
     public sealed class EditorVisualSettingsWindow : EditorWindow
     {
         private const string documentationName = "Documentation";
+#if true // Folder Icons Marker
         private const string folderIconsName = "Folder Icons";
+#endif
 
         private static readonly Vector2 minWindowSize = new Vector2(310f, 200f);
 
@@ -42,7 +44,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
         public void CreateGUI()
         {
 
+#if true // Folder Icons Marker
             TreeViewItemData<string> folderIconsSetting = new TreeViewItemData<string>(0, folderIconsName);
+#endif
+
             TreeViewItemData<string> documentationSetting = new TreeViewItemData<string>(2, documentationName);
 
 
@@ -54,62 +59,14 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
 
             projectSettingsList.Add(documentationSetting);
+
+#if true // Folder Icons Marker
             projectSettingsList.Add(folderIconsSetting);
+#endif
 
             SettingsPanel settingsWindow = new SettingsPanel(ref projectSettingsList, ref rootDict);
 
             rootVisualElement.Add(settingsWindow);
-        }
-
-
-
-        private void ApplyButton()
-        {
-            if (GUILayout.Button("Apply!"))
-            {
-                UnityEditor.Compilation.CompilationPipeline.RequestScriptCompilation();
-                AssetDatabase.Refresh();
-            }
-        }
-        private void EnableOrDisableProjects(ref bool toggle, string toggleName, string findAssetFilter, ref string[] searchInFolders,
-                                bool hasExtraSettings = false, Action extraEditorSettings = null)
-        {
-            string scriptContent;
-
-            if (toggle)
-            {
-                string[] currentPath = AssetDatabase.FindAssets(findAssetFilter, searchInFolders);
-                Debug.Log(currentPath.Length);
-
-                for (int i = 0; i < currentPath.Length; i++)
-                {
-                    string editorScriptName = AssetDatabase.GUIDToAssetPath(currentPath[i]).Replace("\\", "/");
-                    scriptContent = File.ReadAllText(editorScriptName);
-
-                    string textToAddAtStart = "/*";
-                    string textToAddAtEnd = "*/";
-
-
-                    string newContent = textToAddAtStart + scriptContent + textToAddAtEnd;
-
-                    File.WriteAllText(editorScriptName, newContent);
-                }
-            }
-            else
-            {
-                string[] currentPath = AssetDatabase.FindAssets(findAssetFilter, searchInFolders);
-                for (int i = 0; i < currentPath.Length; i++)
-                {
-                    string editorScriptName = AssetDatabase.GUIDToAssetPath(currentPath[i]).Replace("\\", "/");
-
-                    scriptContent = File.ReadAllText(editorScriptName);
-
-
-                    string newContent = scriptContent[2..^2];
-
-                    File.WriteAllText(editorScriptName, newContent);
-                }
-            }
         }
     }
 }
