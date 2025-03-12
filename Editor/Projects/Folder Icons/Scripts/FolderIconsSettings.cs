@@ -17,6 +17,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         private static bool isIconSetADefaultIconSet;
         private static readonly Color lineColor = new Color(144, 144, 144, 0.2f);
 
+        private static float globalMargin = 20f;
         public static VisualElement FolderIconsSettingsVisualElement()
         {
             UtilityFunctions.CheckAndCreateIconFolders();
@@ -26,16 +27,34 @@ namespace CompilerDestroyer.Editor.EditorVisual
             Label rightPaneHeaderLabel = new Label("Folder Icons");
             rightPaneHeaderLabel.style.unityFontStyleAndWeight = FontStyle.Bold;
             rightPaneHeaderLabel.style.fontSize = 20;
-            rightPaneHeaderLabel.style.marginLeft = 20;
+            rightPaneHeaderLabel.style.marginLeft = globalMargin;
+
+
+            Button deleteFolderIcons = new Button();
+            deleteFolderIcons.text = "Delete Folder Icons";
+            deleteFolderIcons.style.marginRight = globalMargin;
+            deleteFolderIcons.clicked += () => {
+
+                if (EditorUtility.DisplayDialog("Delete Folder Icons", "This will delete folder icons completely", "ok", "cancel"))
+                {
+                    Directory.Delete(GlobalVariables.FolderIconsPath.Replace("/", "\\"));
+
+                    UnityEditor.Compilation.CompilationPipeline.RequestScriptCompilation();
+                    AssetDatabase.Refresh();
+                }
+
+            };
+
+
 
             Line headerLine = new Line(1f, false, lineColor);
-            headerLine.style.marginLeft = 20;
-            headerLine.style.marginRight = 20;
+            headerLine.style.marginLeft = globalMargin;
+            headerLine.style.marginRight = globalMargin;
             headerLine.style.marginBottom = 20;
 
 
             TextField newIconSetName = new TextField("Icon Set");
-            newIconSetName.style.marginLeft = 20f;
+            newIconSetName.style.marginLeft = globalMargin;
             newIconSetName.style.flexGrow = 1;
 
             VisualElement addRemoveContainer = new VisualElement();
@@ -44,8 +63,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             popupField = new PopupField<string>(IconManager.iconSetNames, IconManager.persistentFolderIconsData.currentIconSetIndex);
             popupField.style.flexGrow = 1;
-            popupField.style.marginLeft = 20f;
-            popupField.style.marginRight = 20f;
+            popupField.style.marginLeft = globalMargin;
+            popupField.style.marginRight = globalMargin;
 
 
             iconSetListView = new ListView(IconManager.persistentFolderIconsData.iconSetDataList[IconManager.persistentFolderIconsData.currentIconSetIndex].iconSetData, 45);
@@ -54,8 +73,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
             iconSetListView.headerTitle = "Icon Set";
             iconSetListView.reorderable = true;
             iconSetListView.reorderMode = ListViewReorderMode.Simple;
-            iconSetListView.style.marginLeft = 20f;
-            iconSetListView.style.marginRight = 20f;
+            iconSetListView.style.marginLeft = globalMargin;
+            iconSetListView.style.marginRight = globalMargin;
 
             iconSetListView.onAdd = baseListView =>
             {
@@ -142,7 +161,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             addIconSetButton.text = "Add";
 
             Button deleteIconSetButton = new Button();
-            deleteIconSetButton.style.marginRight = 20f;
+            deleteIconSetButton.style.marginRight = globalMargin;
             deleteIconSetButton.clicked += () =>
             {
                 DeleteIconSet();
@@ -186,8 +205,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
 
             Line iconsSetLine = new Line(1f, false, lineColor);
-            iconsSetLine.style.marginLeft = 20;
-            iconsSetLine.style.marginRight = 20;
+            iconsSetLine.style.marginLeft = globalMargin;
+            iconsSetLine.style.marginRight = globalMargin;
             iconsSetLine.style.marginBottom = 20;
             iconsSetLine.style.marginTop = 40;
 
@@ -195,19 +214,19 @@ namespace CompilerDestroyer.Editor.EditorVisual
             loadIconsButton.clicked += LoadIcons;
             loadIconsButton.text = "Load Icons";
             loadIconsButton.style.flexGrow = 1;
-            loadIconsButton.style.marginLeft = 20f;
-            loadIconsButton.style.marginRight = 20f;
+            loadIconsButton.style.marginLeft = globalMargin;
+            loadIconsButton.style.marginRight = globalMargin;
 
             Button saveIconsButton = new Button();
-            saveIconsButton.style.marginLeft = 20f;
-            saveIconsButton.style.marginRight = 20f;
+            saveIconsButton.style.marginLeft = globalMargin;
+            saveIconsButton.style.marginRight = globalMargin;
             saveIconsButton.clicked += SaveIcons;
             saveIconsButton.text = "Save Icons";
             saveIconsButton.style.flexGrow = 1;
 
             Button resetEverythingButton = new Button();
-            resetEverythingButton.style.marginLeft = 20f;
-            resetEverythingButton.style.marginRight = 20f;
+            resetEverythingButton.style.marginLeft = globalMargin;
+            resetEverythingButton.style.marginRight = globalMargin;
             resetEverythingButton.text = "Reset All Icons";
             resetEverythingButton.clicked += ResetAllIcons;
 
@@ -226,6 +245,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             addRemoveContainer.Add(deleteIconSetButton);
 
             rootVisualElement.Add(rightPaneHeaderLabel);
+            rootVisualElement.Add(deleteFolderIcons);
             rootVisualElement.Add(headerLine);
             rootVisualElement.Add(addRemoveContainer);
             rootVisualElement.Add(popupField);
@@ -234,8 +254,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
             rootVisualElement.Add(loadSaveRow);
             rootVisualElement.Add(resetEverythingButton);
 
-
-            rootVisualElement.Add(ChangeContent());
             return rootVisualElement;
         }
         private static VisualElement MakeItemForIconSetListView()
@@ -258,21 +276,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
             return element;
         }
 
-        private static VisualElement ChangeContent()
-        {
-            VisualElement element = new VisualElement();
-
-            Button button = new Button();
-            button.text = "Change Content";
-            button.clicked += () =>
-            {
-                
-                    
-            };
-
-            element.Add(button);
-            return element;
-        }
         private static void BindItemForIconSetListView(VisualElement element, int index)
         {
             TextField textField = element.Q<TextField>();
@@ -310,8 +313,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 textField.value = IconManager.persistentFolderIconsData.iconSetDataList[IconManager.persistentFolderIconsData.currentIconSetIndex].iconSetData[index].folderName;
                 customTexture.value = IconManager.persistentFolderIconsData.iconSetDataList[IconManager.persistentFolderIconsData.currentIconSetIndex].iconSetData[index].icon;
-                textField.style.marginLeft = 20f;
-                customTexture.style.marginLeft = 20f;
+                textField.style.marginLeft = globalMargin;
+                customTexture.style.marginLeft = globalMargin;
                 textField.style.marginTop = 3f;
                 customTexture.style.marginTop = 3f;
 

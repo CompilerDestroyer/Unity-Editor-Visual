@@ -63,6 +63,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         public override void OnOpen()
         {
+            if (!IconManager.persistentFolderIconsData.packageIsInstalledLocally)
+            {
+                Debug.LogWarning("Editor visual is installed with git. Folder icons will not be working!");
+                return;
+            }
+
             currentAssetPath = AssetDatabase.GetAssetPath(Selection.activeInstanceID);
             currentAssetGUID = AssetDatabase.AssetPathToGUID(currentAssetPath);
 
@@ -85,6 +91,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // When closing this PopupWindowContent Save all textures and draw them in the main DrawFolders function to make it persistent
         public override void OnClose()
         {
+            if (!IconManager.persistentFolderIconsData.packageIsInstalledLocally)
+            {
+                Debug.LogWarning("Editor visual is installed with git. Folder icons will not be working!");
+                return;
+            }
+
             if (IconManager.projectCurrentEmptyFolderTexture != null)
             {
                 PopupWindowContentFunctions.HandleColorFoldersTexture(currentAssetGUID);

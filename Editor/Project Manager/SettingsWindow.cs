@@ -12,7 +12,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
     {
         private const string documentationName = "Documentation";
         private const string folderIconsName = "Folder Icons";
-        private const string scriptDescriptionName = "Script Description";
 
         private static readonly Vector2 minWindowSize = new Vector2(310f, 200f);
 
@@ -40,18 +39,15 @@ namespace CompilerDestroyer.Editor.EditorVisual
         {
 
             TreeViewItemData<string> folderIconsSetting = new TreeViewItemData<string>(0, folderIconsName);
-            TreeViewItemData<string> scriptDescriptionSetting = new TreeViewItemData<string>(1, scriptDescriptionName);
             TreeViewItemData<string> documentationSetting = new TreeViewItemData<string>(2, documentationName);
 
 
             rootDict.Add(documentationName, null);
             rootDict.Add(folderIconsName, FolderIconsSettings.FolderIconsSettingsVisualElement());
-            rootDict.Add(scriptDescriptionName, null);
 
 
             projectSettingsList.Add(documentationSetting);
             projectSettingsList.Add(folderIconsSetting);
-            projectSettingsList.Add(scriptDescriptionSetting);
 
             SettingsPanel settingsWindow = new SettingsPanel(ref projectSettingsList, ref rootDict);
 
