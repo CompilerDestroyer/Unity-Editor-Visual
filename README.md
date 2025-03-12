@@ -91,31 +91,32 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 <div align="left">
 <p align="left">To open Settings, "Tools/Compiler Destroyer/Editor Visual":</p>
 
-<img align="left" src="https://github.com/user-attachments/assets/97429118-fd5b-4431-9d3d-28fa47af7fbb">
+<img align="center" src="https://github.com/user-attachments/assets/97429118-fd5b-4431-9d3d-28fa47af7fbb">
 </div>
 <br>
 
 <div align="left">
 <p align="left">You can create icon sets. Icon sets allow you to define icon data, which can later be used to easily assign icons to folders by simply renaming the folders: </p>
-<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/1e4a3b09-55d7-429e-b7ef-391a27fcc401.png">
+<img align="center" src=https://github.com/user-attachments/assets/9f7e408f-7e8b-4191-a2f1-605dfe8e22fa>
 </div>
+
+![image](https://github.com/user-attachments/assets/1802cc69-aede-471e-8eab-7da52f914412)
+
 
 <br>
 
 <div align="left">
-<p align="left">You can use predefined default icon set 'Medieval':</p>
-<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/8019e2e6-4d1a-4bf4-b8a2-3394046a8068.png" width="800" height="332">
+<p align="left">You can save all current icons and icon sets and you can reset everything to default:</p>
+<img align="center" src="https://github.com/user-attachments/assets/a650eecf-a29f-495b-b2f2-7d6a2c52d2df">
 </div>
-
 <br>
 
 <div align="left">
-<p align="left">You can Load/Save Icon Sets or all current icons and you can reset everything to default:</p>
-<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/9d754783-a17b-4131-9da8-c4a1fc22bc54.png">
+<p align="left">You can delete folder icons from Unity Editor Visual. This is useful for if you only a bunch of projects:</p>
+<img align="center" src="https://github.com/user-attachments/assets/0ecce979-8d20-4183-bf35-8ebaa4e10de9">
 </div>
+
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
-
-<div style="clear: both;"></div>
 
 <!-- Support -->
 <div align= "center">
