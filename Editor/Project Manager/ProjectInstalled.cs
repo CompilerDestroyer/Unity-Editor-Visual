@@ -5,6 +5,7 @@ using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using UnityEditor.PackageManager;
 using System.Linq;
 using CompilerDestroyer.Editor;
+using UnityEngine;
 
 [InitializeOnLoad]
 public class ProjectInstalled
@@ -33,7 +34,7 @@ public class ProjectInstalled
     private static void DeleteInstalledTempFile(PackageRegistrationEventArgs args)
     {
         PackageInfo packageInfo = args.removed.First((x) => x.name == GlobalVariables.UnityEditorVisualPackageName);
-
+        Debug.Log("Remove Editor Visual again in order to remove it!");
         if (packageInfo != null)
         {
             File.Delete(GlobalVariables.ProjectTempInstalledFilePath);
