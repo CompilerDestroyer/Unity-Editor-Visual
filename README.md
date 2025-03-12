@@ -115,8 +115,10 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 </div>
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
-<!-- Support -->
+<div style="clear: both;"></div>
 
+<!-- Support -->
+<div align= "center">
 <h2 align="center">Support</h2>
 <p align="center">If you encounter any problems or bugs, create new issue in Issues page:
   <a href="https://github.com/compilerbutcher/Unity-Editor-Visual/issues">Issues</a>
@@ -126,8 +128,4 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 <p align="center">MIT LICENSE:  
 <a href="https://github.com/compilerbutcher/Unity-Editor-Visual/blob/main/LICENSE">LICENSE</a>
 </p>
-
-
-
-
-
+</div>
