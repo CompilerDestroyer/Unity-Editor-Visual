@@ -17,8 +17,2127 @@ MonoBehaviour:
   folderEmptinessList:
   - folderPath: Assets
     isFolderEmpty: 1
+  - folderPath: Library/BuildInstructions
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Unity.Burst.CodeGen
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.BurstCompatibilityGen
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Image
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/TMP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Interfaces/Graph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Range
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Actions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Unity
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Editor/TestReportGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/RectMask2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Lighting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor-PrivateShared
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters/Unity
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/Sampling/Textures/SobolBlueNoise
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math/Vector2
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/SubGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/AssetCallbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Description
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Editor/Inspectors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/AssetPostProcessors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Framework/Graph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/GraphView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Analysis
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/SettingsProvider/ProjectSettings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/UXML
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Includes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Ports
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Assets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/ShaderStrippers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.imgui
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime/Measurements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/DocCodeSamples.Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ext.nunit/net40/unity-custom
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/ShaderGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Variables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Enumerations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/BackupWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Activation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Audio
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Filter
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Ensure
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.animation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Volume
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Shared
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Decal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Canvases
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Animation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor/ProjectGeneration
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/Sampling/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Basic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/COMIntegration/Release
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/AssemblyProvider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/Assemblies/WINx64
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.xr
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Variables/Obsolete
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Callbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Codebase
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/TMP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/ShaderStripping
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/SMAA
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Unity.Mathematics/Geometry
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/RemoteHelpers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/TMP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Importers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/2D/Include
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Controllers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/Users
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Activation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions/LogScope
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal-config/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Unity
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Derivative
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/InputField
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/ShaderGraphLibrary
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Audio
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Transitions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/UXML
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Shelves
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/RenderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Reflection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Widgets/StickyNote
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Runtime/OffMeshLinkTests/SceneSetup
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Listeners
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/res
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/Features
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math/Vector4
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Util
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Utility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/VFXGraph/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Graphics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Targets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Machines
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Legacy
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Exceptions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/YamlDotNet
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Settings/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Invocations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Units
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI/TestAssets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticleHexahedron
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/Switch
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/ShadingModels
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Views
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons/RenderGraphViewer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.assetbundle
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/CommandBuffers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/AboutWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Passes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/ConfigurationPanel
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Empty Color Folder Icons
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Editor/ConversionSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Toggle
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Devices/Haptics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Description
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Nodes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Common
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Widgets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2/EffectConverters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Physics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Volume
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common/GeometryPool
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Button
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Camera
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.PerformanceTests/Unity.PerformanceTesting.Benchmark
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollBar
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI/Avatar
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Converter
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Assets/Styles
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/ShaderLibrary
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.LowLevel.ILSupport
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/WebApi
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/DragAndDrop
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Graphic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Nesting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Internal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Scripts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticlePlanarPrimitives
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Gizmos
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Implementation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Volumes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Migrations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/TextEditor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/Steam
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Gluon/UpdateReport
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestLaunchers/Helpers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/ReorderableList/ElementAdderMenu
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqCore
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetsUtils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventData
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Devices/Remote
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Unity.Mathematics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Vector
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Filters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Unity.Mathematics/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetMenu
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticleMeshes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal-config/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/Tests/TestFixture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/XR
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Selection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Utility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Graphs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math/Scalar
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/_Deprecated/WebApi
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/ShaderLibrary/Sampling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Acknowledgements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Wave
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Tests/Editor/UnifiedRayTracing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/UI/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Gluon
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime/Intrinsics/x86
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Loaded Icons
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/SerializedProperties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Welcome
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Animation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/DocCodeExamples
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.screencapture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/RendererFeatures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/STP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural/Shape
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Tests/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Graph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Inspector/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Devices/Commands
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Connections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Player
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/LightUnit
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/ProjectWideActions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Listeners/MonoBehaviour
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Time
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/CommandLineTest
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Basic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Ports
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Widgets/Groups
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Shapes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Serialization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Flow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.cloth
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Inspector
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.CodeGen
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/WebGL
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview/Drawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Util
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Hardware
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/GenerateDocumentationWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Processors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Plugin/Changelogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Assets/Layouts/PlasticWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/XR
+    isFolderEmpty: 1
+  - folderPath: Assets/Tessellation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.Tests/Jobs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Branch
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/SerializedProperties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Messages
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Controls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Decal/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Input
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/TargetResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Recording
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/ShaderGenerator
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.nuget.mono-cecil/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Interpolation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Pooling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderGraphViewer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Enumerations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/GUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection/Operators
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/MeshDeformation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Adjustment
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Input/InputSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Haptics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Slider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.imageconversion
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/UGUI/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/EditorTool
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/Tests/IntegrationTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestSettings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.terrainphysics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/personal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.nuget.mono-cecil
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor/UnitTesting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection/Optimization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/InstanceData
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Description
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/ShadowProvider/Providers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Hub/Operations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unitywebrequest
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Cloning/Cloners
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI/Views
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unitywebrequestassetbundle
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Utilities/Scopes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime/CompilerServices
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Nesting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/ShaderLibrary/Shadow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/Android
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUSort
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Descriptors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetsUtils/Processor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Common
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/CustomRenderTexture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Gizmos
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/UGUI/EventSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetMenu/Dialogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping/Results
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Extensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.nuget.mono-cecil/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/DefaultScene
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Variables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Nulls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview/Snapping
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Branch/Dialogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Physics2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview/Drawers/Layers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/States
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/COMIntegration
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/Raycasters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/_Deprecated
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Debugger
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Blackboard
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/State
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Views/Slots
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/ReorderableList
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.subsystems
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Devices/Precompiled
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Commands
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Assignment
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Macros
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/CommandLineParser
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Variables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticleMeshesLit
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Animation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Actions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Debugging
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Assets/Images
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition/Welcome
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/inspectors/CurvesOwner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/InputForUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/NUnitExtension/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Decal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/State
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/ShaderLibrary/LightCookie
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI/Tree
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Editor/UIElements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.State
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Collections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unityanalytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.physics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Utility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestLaunchers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Tests/Editor/IntegrationTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Converter
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Reflection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Extensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/Trim
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Developer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/inspectors/ClipInspector
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Decal/DBuffer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Platforms
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI/TestListBuilder
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Texture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.vr
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/OnBoarding
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Toolbar
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Icons/Processed
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Matrix
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/UGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Culling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Diff
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Window/Modes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Runner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.physics2d
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Products
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Variables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Groups
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Editor/Resources/FlatSkin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Includes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/Utils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal-config/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/XInput
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Root
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Fonts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Merge/Developer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/Recommendations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/Questionnaire
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/HID
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Utils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/GUIFramework
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Localization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/ShaderGenerator
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Serialization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Normal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.wind
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Product
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/ReorderableList/Internal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Contexts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Framework
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections/Jobs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Serialization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Interface
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/GPUDriven
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Merge/Gluon
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticleLines
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime/Statistics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise64/L
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderPipeline
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Trigonometry
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime/Intrinsics/Arm
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.uielements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Window
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Serialization/Converters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unitywebrequestaudio
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/MaterialEditor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticlePoints
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.particlesystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/VerifyEditorInPlaymode
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Decal/ScreenSpace
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Interfaces
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Editor/Converter
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI/TestListTreeView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Documentation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Color Folder Icons
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Shim
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/UTess2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.accessibility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Meta
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Descriptors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/EventSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Graph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Default Icons/Default Icon Sets/Ancient Legends
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Actions/Menus
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Changesets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Decorators
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Volume
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Debugging
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math/Vector3
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Default Icons/Default Icon Sets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Time
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/Canvas
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Navigation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Lighting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Options
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/BuildProcessors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/RenderPipelineResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Tool
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/URPDecal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI/Controls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes/Utility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor Resources/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Rendering
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/SpecializedCollections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Blend
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/XR
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.tilemap
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/Changelists
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Canvas/AssetCallbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityTestProtocol
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Advanced
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/EditorBinding/Inspector
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Controls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime/Meters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Control
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.ui
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Tiling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRunner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetOverlays
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/Utils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Collections/Lists
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Default Icons/Default Unity Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Scene
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Nodes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/UniversalRenderPipelineAsset
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticleLinesSW
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Cloning
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/Api/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal-config
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/RendererFeatures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.androidjni
+    isFolderEmpty: 1
+  - folderPath: Assets/Art
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Window/ViewModel
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Actions/Interactions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Annotations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/AssemblyQualifiedNameParser
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Platform
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Converters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRunner/Messages
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Context
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Configuration/TeamEdition
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Input
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Camera
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/UnityEvent
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/PendingMergeLinks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor Resources/Gizmos
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/SettingsStrippers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/UV
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Loaded Icon Sets
+    isFolderEmpty: 0
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Units
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Platforms
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/RenderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/Assertions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/EditorBinding
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline/SettingsStrippingResults
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Hub
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/InputField
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Items
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Diff/Dialogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/History
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/Cursors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual
+      UIElements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Listeners/UIInterfaces
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Variables/Obsolete
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Default Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/AssetOverlays/Cache
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Actions/Composites
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Primitives
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/Particles
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/ControlTrack
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/InputModuleTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute/RadeonRays
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Lib/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/XR/Devices
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/StickyNote
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Lights
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Playables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Canvas
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Tests/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Actions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Graphs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/EditorResources/Overlay
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Editor/Updater
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor/PostProcessors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Controls
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Dropdown
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Canvas
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Hierarchy
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders/ffx
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Fuzzy
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/Path
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Other
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Overrides/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/OSX
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Control
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/TMP/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/Api
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/UXML/Blackboard
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/View
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Extensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/LookDev
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Connections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Dropdowns
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Interfaces
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Plugin/Migrations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Plugin/Migrations
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Includes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Configuration/CloudEdition
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Linker
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.Tests.Playmode
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Logic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/MaskClipping
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime-PrivateShared
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Special
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Collections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Editor/Searcher
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/Assemblies/WINARM64
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Events/Signals
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Signals/TreeView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/Layouts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/ResourceProviders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/VSWhere
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Merge/Developer/DirectoryConflicts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.hierarchycore
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/SampleDependencyImportSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Decal/Entities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Undo
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Codebase
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Playables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/ProjectGeneration
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI
+    isFolderEmpty: 1
+  - folderPath: Assets/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollRect
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Manipulators
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Inputs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Unity.Mathematics/Noise
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Devices
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Collections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/BuildPipeline
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/AddDelete
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Memory
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestLaunchers/PlatformSetup
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Material
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime/Sampling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Resources/Gizmos
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor/PostProcessDataTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/AssetUpgrade
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Utility/Logic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.vehicles
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/Linux
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Listeners/UI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Locks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.PerformanceTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/Slider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Evaluation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/Nature
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Gradient
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Extensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/XR
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/FrameData
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/MaterialModifiers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/DotNetZip
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Threading
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/XR
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Volume/Drawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Widgets/Nodes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/SQLite
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Tests/Runtime/OffMeshLinkTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/Assemblies
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.umbra
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Plugin/Changelogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/EditorResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Gizmo
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/VFXGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/UGUI/UI/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/PBR
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Tests/Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Layout
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Signals
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Developer/UpdateReport
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Debugging
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unitywebrequestwww
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Lib
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Attributes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Configuration
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/StyleSheets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.jsonserialize
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Decorators
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ext.nunit
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise256
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Time
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Rendergraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Overrides
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Tests/Tests/Shared
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Inspector
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor/URPGlobalSettingsMigrationTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor Resources/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.director
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/inspectors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/ShaderLibrary
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/LookDev
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.audio
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/LayoutGroup
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview/TrackGui
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Stripping
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/TMP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/SettingsProvider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Round
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/AssetCallbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/ViewModels
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/STP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/UIElements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRunner/Callbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/CustomRenderTexture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Tasks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/Targets
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Acknowledgements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Canvas/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.rendering.light-transport/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview/ItemGui
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/CustomEditors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Overrides
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Scene
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Scripting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/DeviceSimulator
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/Move
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/iOS
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Application
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic/Mask
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Licenses
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Connections
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.video
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/DocCodeSamples.Tests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.mathematics/Unity.Mathematics.Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.ai
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Plugin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/OnScreen
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/EditorAssetResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/Merge
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/Plugins
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Lib/Editor/Localization
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Inspector/TabbedView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI/UIElements
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates/ParticlePlanarPrimitivesLit
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Internal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Lifecycle
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Gluon/Errors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Geometry
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/SceneView
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.rider/Rider/Editor/Util
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Package Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges/Dialogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Interface/Colors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework.performance/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.terrain
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/DualShock
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/GUI
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI/StatusBar
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Artistic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/InputModules
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.multiplayer.center/Tests/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Math/Generic
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/CommandBuffers/CommandBufferGenerator
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/UpdateWizard
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Channel
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/CanvasRenderer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Scripts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary/Sampling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/UI/Progress
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/pro
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Assets/Layouts
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ai.navigation/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders/Templates
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/GeneratePropertyProvidersWindow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Views/CreateWorkspace/Dialogs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/MonoBehaviourTest
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/ShaderGraph/AssetCallbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/VFXGraph/Utility
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Exceptions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Graph
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/Sidebars
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Manipulators/Sequence
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Converter/Converters
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Animation
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/AssetCallbacks
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collections/Unity.Collections.PerformanceTests.Internal
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/TMP/HDRP
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Data/Textures
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/VFXGraph/Utility/PropertyBinders
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Collections/Dictionaries
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/EditorBinding
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/FrameTiming
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Utilities
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/Dropdown
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRunner/Utils
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/Messaging
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors/GraphicsSettingsStrippers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.test-framework/UnityEditor.TestRunner/NUnitExtension
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural/Noise
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/PostProcessing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUPrefixSum
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Editor/UGUI/Text
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/StyleSheets/Images
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Resources/Styles
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Camera
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Changelogs/LegacyLudiqGraphs
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/ShaderLibrary/API
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows/ShadowProvider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.modules.unitywebrequesttexture
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.burst/Runtime/Intrinsics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Controls/Processors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Materials
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Analytics
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Control
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Tests/Editor/UnitTests
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/EventSystem
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/History
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ide.visualstudio/Editor/Testing
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/EditablePath
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Drawing/Colors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Ensure/Extensions
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Utilities/Observables
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Debug
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/Shadow
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Profiling
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/Util
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ext.nunit/net40
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/LightBatchingDebugger
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Matrix
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.State/Plugin
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Settings
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Settings/PropertyDrawers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Editor/UGUI/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/VertexModifiers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/UnityRemote
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/Terrain
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.collab-proxy/Editor/_Deprecated/CollabMigration
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.searcher/Editor/Resources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Components
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.inputsystem/InputSystem/Plugins/EnhancedTouch
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/NestedLayout
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Editor/CommandBuffers
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/Shadows/ShadowProvider
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Lighting
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/Editor/AssetPostProcessors
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Runtime/VolumeComponents
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Runtime/Properties
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.timeline/Editor/treeview
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive
+    isFolderEmpty: 1
+  - folderPath: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Attributes
+    isFolderEmpty: 1
   allFoldersPathList:
   - Assets/NewMonoBehaviourScript.cs
+  - Assets/Editor/NewMonoBehaviourScript.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data/FolderIconsData.asset
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/IconManager.cs
   iconSetDataList:
   - iconSetName: None
     iconSetData: []

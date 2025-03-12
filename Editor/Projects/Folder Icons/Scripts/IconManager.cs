@@ -109,19 +109,20 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 UtilityFunctions.CheckAllFoldersCurrentEmptiness(ref isFolderFilledDict);
 
-                if (persistentFolderIconsData.allFoldersPathList.Count == 0)
+                string[] allFolders = AssetDatabase.FindAssets("t:DefaultAsset");
+
+                persistentFolderIconsData.allFoldersPathList = new List<string>();
+
+                for (int i = 0; i < allFolders.Length; i++)
                 {
-                    string[] allFolders = AssetDatabase.FindAssets("t:DefaultAsset");
-
-                    persistentFolderIconsData.allFoldersPathList = new List<string>(allFolders.Length);
-
-                    for (int i = 0; i < allFolders.Length; i++)
+                    string folderPath = AssetDatabase.GUIDToAssetPath(allFolders[i]);
+                    if (AssetDatabase.IsValidFolder(folderPath))
                     {
-                        persistentFolderIconsData.allFoldersPathList.Add(AssetDatabase.GUIDToAssetPath(allFolders[i]));
+                        persistentFolderIconsData.allFoldersPathList.Add(folderPath);
                     }
-
-                    if (persistentFolderIconsData != null) EditorUtility.SetDirty(persistentFolderIconsData);
                 }
+
+                if (persistentFolderIconsData != null) EditorUtility.SetDirty(persistentFolderIconsData);
             }
             else
             {
