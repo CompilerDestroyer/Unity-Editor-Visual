@@ -9,7 +9,6 @@
  <p align="center">
   <a href="#Installation">Installation</a> •
   <a href="#Packages">Packages</a> •
-  <a href="#Usage">Usage</a> •
   <a href="#Support">Support</a> •
   <a href="#LICENSE">License</a>
 </p>
@@ -80,6 +79,9 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 
 <h2 align="center">Packages</h2>
 <h3 align="left"> 1- Folder Icons</h3>
+<p align="left">Folder Icons lets you change the default Unity icons and create icon sets, which are useful for assigning icons by renaming folders.</p>
+
+<br>
 
 <div align="left">
   <p>You can change the icon of a folder by clicking the small icon in the Inspector, then choosing a color or texture. You can also delete the icon:</p>
@@ -115,6 +117,14 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 <p align="left">You can delete folder icons from Unity Editor Visual. This is useful for if you only a bunch of projects:</p>
 <img align="center" src="https://github.com/user-attachments/assets/0ecce979-8d20-4183-bf35-8ebaa4e10de9">
 </div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<p><strong>Development of new unity editor visuals will continue in the future.</strong></p>
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
