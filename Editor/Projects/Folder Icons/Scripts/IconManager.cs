@@ -38,18 +38,21 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             PackageSource packageSource = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
 
-            if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
+            if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
                 bool isLocal = packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball;
 
                 if (!isLocal)
                 {
+                    Debug.Log("Project is not local");
                     persistentFolderIconsData.packageIsInstalledLocally = false;
                     SavePersistentData();
                     Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
                 }
                 else
                 {
+                    Debug.Log("Project is local");
+
                     persistentFolderIconsData.packageIsInstalledLocally = true;
                     SavePersistentData();
                 }
