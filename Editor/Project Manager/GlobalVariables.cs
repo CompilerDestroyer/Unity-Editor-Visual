@@ -17,7 +17,6 @@ namespace CompilerDestroyer.Editor
 
 
         public const string ProjectManagerPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager";
-        //public const string GUISkinsFolderPath = "Packages/com.compilerdestroyer.editorvisual/Editor Visual/Editor/Data/GUISkins";
 
         // Custom Editor GUIStyle Names
         public const string HeaderLabelGUIStyleName = "Header Label";

@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using System.Linq;
 using CompilerDestroyer.Editor.UIElements;
+using System.Text.RegularExpressions;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
@@ -18,6 +19,30 @@ namespace CompilerDestroyer.Editor.EditorVisual
         private static readonly Color lineColor = new Color(144, 144, 144, 0.2f);
 
         private static float globalMargin = 20f;
+
+
+        private static string settingsWindowPath = GlobalVariables.ProjectManagerPath + "/SettingsWindow.cs";
+
+        private static void FindAndChangeFolderIconsMarkers()
+        {
+            string[] paths = new string[] { settingsWindowPath};
+
+            for (int i = 0; i < paths.Length; i++)
+            {
+                string currentPath = paths[i].Replace("/", "\\");
+
+                string fullPath = Path.GetFullPath(currentPath);
+
+                string allContents = File.ReadAllText(fullPath);
+
+                string pattern = @"#if\s+.*?(?=\s*// Folder Icons Marker)";
+                string replacedContents = Regex.Replace(allContents, pattern, "#if false");
+
+                File.WriteAllText(fullPath, replacedContents);
+                AssetDatabase.Refresh();
+            }
+        }
+
         public static VisualElement FolderIconsSettingsVisualElement()
         {
             UtilityFunctions.CheckAndCreateIconFolders();
@@ -45,6 +70,8 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 if (EditorUtility.DisplayDialog("Delete Folder Icons", "This will delete folder icons completely", "ok", "cancel"))
                 {
                     Directory.Delete(GlobalVariables.FolderIconsPath.Replace("/", "\\"), true);
+
+                    FindAndChangeFolderIconsMarkers();
 
                     UnityEditor.Compilation.CompilationPipeline.RequestScriptCompilation();
                     AssetDatabase.Refresh();

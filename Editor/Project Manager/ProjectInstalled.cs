@@ -1,4 +1,3 @@
-using CompilerDestroyer.Editor.EditorVisual;
 using System.IO;
 using UnityEditor;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
@@ -10,6 +9,7 @@ using UnityEngine;
 [InitializeOnLoad]
 public class ProjectInstalled
 {
+
     static ProjectInstalled()
     {
         CreateInstalledTempFile();
@@ -21,7 +21,7 @@ public class ProjectInstalled
     {
         if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
         {
-            PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
+            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
 
             if (packageInfo == PackageSource.Embedded || packageInfo == PackageSource.Local || packageInfo == PackageSource.LocalTarball)
             {

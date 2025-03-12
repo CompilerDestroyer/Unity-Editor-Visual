@@ -21,7 +21,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         {
             if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
 
-            PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
+            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
 
             if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
             {

@@ -6,6 +6,7 @@ using System;
 using System.Linq;
 using UnityEditor.PackageManager;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
+using Codice.Client.BaseCommands.Config;
 
 
 namespace CompilerDestroyer.Editor.EditorVisual
@@ -33,7 +34,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         {
             AssetOperations();
 
-            PackageSource packageInfo = PackageInfo.FindForPackageName(ProjectConstants.embeddedPackageName).source;
+            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
 
             if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
