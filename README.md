@@ -28,19 +28,14 @@
 <!--Local Installation Part-->
 <p align="center">
   Folder-Icons can be installed locally with unity package manager:
-<a href="https://github.com/compilerbutcher/Unity-Folder-Icons/archive/refs/heads/main.zip">Unity-Folder-Icons.zip</a>
+![image](https://github.com/user-attachments/assets/0aa5eca3-5b8b-4b27-8473-ab575938763b)
+![image](https://github.com/user-attachments/assets/eda0cbbd-0ea2-4218-89ea-9fc0a62a151a)
+
 </p>
 
 <div align="center">
 <img src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/e64eceed-0b52-4aea-bec7-7ecfa9895668.gif">
 </div>
-
-<div align="center">
- <p>When you download it locally, Project will be imported into the 'Packages' directory, ensuring that 'Assets' directory remains clean.</p>
-  <p>Aditionally you can create folder in the "Packages/Folder Icons/Icons/Your Texture Folder" and put your textures into it for keeping 'Assets' clean.</p>
-</div>
-
-
 
 <!--Git Installation Part-->
 <br>
