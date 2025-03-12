@@ -28,11 +28,15 @@ namespace CompilerDestroyer.Editor.EditorVisual
         }
         private void OnEnable()
         {
+#if true // Folder Icons Marker
             Undo.undoRedoPerformed += FolderIconsSettings.RefreshIconSetListViewOnUndo;
+#endif
         }
         private void OnDisable()
         {
+#if true // Folder Icons Marker
             Undo.undoRedoPerformed -= FolderIconsSettings.RefreshIconSetListViewOnUndo;
+#endif
         }
 
         public void CreateGUI()
@@ -43,7 +47,10 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
 
             rootDict.Add(documentationName, null);
+
+#if true // Folder Icons Marker
             rootDict.Add(folderIconsName, FolderIconsSettings.FolderIconsSettingsVisualElement());
+#endif
 
 
             projectSettingsList.Add(documentationSetting);
