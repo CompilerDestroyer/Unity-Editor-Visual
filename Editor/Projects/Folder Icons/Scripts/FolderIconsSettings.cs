@@ -23,26 +23,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
         private static string settingsWindowPath = GlobalVariables.ProjectManagerPath + "/SettingsWindow.cs";
 
-        private static void FindAndChangeFolderIconsMarkers()
-        {
-            string[] paths = new string[] { settingsWindowPath};
-
-            for (int i = 0; i < paths.Length; i++)
-            {
-                string currentPath = paths[i].Replace("/", "\\");
-
-                string fullPath = Path.GetFullPath(currentPath);
-
-                string allContents = File.ReadAllText(fullPath);
-
-                string pattern = @"#if\s+.*?(?=\s*// Folder Icons Marker)";
-                string replacedContents = Regex.Replace(allContents, pattern, "#if false");
-
-                File.WriteAllText(fullPath, replacedContents);
-                AssetDatabase.Refresh();
-            }
-        }
-
         public static VisualElement FolderIconsSettingsVisualElement()
         {
             UtilityFunctions.CheckAndCreateIconFolders();
@@ -71,7 +51,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 {
                     Directory.Delete(GlobalVariables.FolderIconsPath.Replace("/", "\\"), true);
 
-                    FindAndChangeFolderIconsMarkers();
+                    FindAndChangeFolderIconsMarkersOnDelete();
 
                     UnityEditor.Compilation.CompilationPipeline.RequestScriptCompilation();
                     AssetDatabase.Refresh();
@@ -585,6 +565,25 @@ namespace CompilerDestroyer.Editor.EditorVisual
         }
         #endregion
 
+        private static void FindAndChangeFolderIconsMarkersOnDelete()
+        {
+            string[] paths = new string[] { settingsWindowPath };
+
+            for (int i = 0; i < paths.Length; i++)
+            {
+                string currentPath = paths[i].Replace("/", "\\");
+
+                string fullPath = Path.GetFullPath(currentPath);
+
+                string allContents = File.ReadAllText(fullPath);
+
+                string pattern = @"#if\s+.*?(?=\s*// Folder Icons Marker)";
+                string replacedContents = Regex.Replace(allContents, pattern, "#if false");
+
+                File.WriteAllText(fullPath, replacedContents);
+                AssetDatabase.Refresh();
+            }
+        }
 
     }
 }
