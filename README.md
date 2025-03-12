@@ -67,17 +67,14 @@ https://github.com/compilerbutcher/Folder-Icons.git
     </tr>
 </p>
 
-
 <div align="center">
-  When you download it with git link, some project files will be in 'Assets' folder because when installed from git, 'Packages' directory is immutable.
-  These project files under 'Assets' must be remain untouched as they are crucial to the project.
+  When you install it using a Git URL, Editor Visual will embed itself as a package and create its files inside the <code>Packages</code> folder to keep the <code>Assets</code> folder clean.
+</div>
+<div align="center">
+When removing it, make sure to remove both the embedded Unity Editor Visual package and the Git-based Unity Editor Visual package.
 </div>
 
 <br>
-<div align="center">
- <p> <strong>Note: </strong>To download a package from Git in Unity, you need to have Git installed on your computer.</p>
- 
-</div>
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
 
@@ -122,12 +119,12 @@ https://github.com/compilerbutcher/Folder-Icons.git
 
 <h2 align="center">Support</h2>
 <p align="center">If you encounter any problems or bugs, create new issue in Issues page:
-  <a href="https://github.com/compilerbutcher/Unity-Folder-Icons/issues">Issues</a>
+  <a href="https://github.com/compilerbutcher/Unity-Editor-Visual/issues">Issues</a>
 </p>
 
 <h2 align="center">License</h2>
 <p align="center">MIT LICENSE:  
-<a href="https://github.com/compilerbutcher/Unity-Folder-Icons/blob/main/LICENSE">LICENSE</a>
+<a href="https://github.com/compilerbutcher/Unity-Editor-Visual/blob/main/LICENSE">LICENSE</a>
 </p>
 
 
