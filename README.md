@@ -81,45 +81,40 @@ https://github.com/compilerbutcher/Folder-Icons.git
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
 
+<h2 align="center">Packages</h2>
+<h3 align="left"> 1- Folder Icons</h3>
 
-
-
-<!----------------------------------------------------Usage Part------------------------------------------------------------------ -->
-<br>
-<br>
-<h2 align= "center">Usage</h2>
-
-<div align="center">
-<p align="center">You can change icon of a folder by clicking the small icon in the inspector then choosing color/texture or you can delete icon:</p>
-<img src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/fc93bf34-7979-4f89-8861-060b34ffafba.gif">
+<div align="left">
+  <p>You can change the icon of a folder by clicking the small icon in the Inspector, then choosing a color or texture. You can also delete the icon:</p>
+  <img src="https://github.com/user-attachments/assets/d669a00e-c2d1-4484-b284-8a9eca346582">
 </div>
 
-<h4 align="center">Folder Icon Settings</h4> 
+<h4 align="left">Folder Icons Settings</h4> 
 
+<div align="left">
+<p align="left">To open Settings, "Tools/Compiler Destroyer/Editor Visual":</p>
 
-<div align="center">
-<p align="center">To open Settings, "Tools/Folder Icon Settings":</p>
-<img align="center" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/bd63c6d7-10f9-402f-95e6-d7e322415926.png">
+<img align="left" src="https://github.com/user-attachments/assets/97429118-fd5b-4431-9d3d-28fa47af7fbb">
 </div>
 <br>
 
-<div align="center">
-<p align="center">You can create icon sets. Icon sets allow you to define icon data, which can later be used to easily assign icons to folders by simply renaming the folders: </p>
-<img align="center" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/1e4a3b09-55d7-429e-b7ef-391a27fcc401.png">
+<div align="left">
+<p align="left">You can create icon sets. Icon sets allow you to define icon data, which can later be used to easily assign icons to folders by simply renaming the folders: </p>
+<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/1e4a3b09-55d7-429e-b7ef-391a27fcc401.png">
 </div>
 
 <br>
 
-<div align="center">
-<p align="center">You can use predefined default icon set 'Medieval':</p>
-<img align="center" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/8019e2e6-4d1a-4bf4-b8a2-3394046a8068.png" width="800" height="332">
+<div align="left">
+<p align="left">You can use predefined default icon set 'Medieval':</p>
+<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/8019e2e6-4d1a-4bf4-b8a2-3394046a8068.png" width="800" height="332">
 </div>
 
 <br>
 
-<div align="center">
-<p align="center">You can Load/Save Icon Sets or all current icons and you can reset everything to default:</p>
-<img align="center" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/9d754783-a17b-4131-9da8-c4a1fc22bc54.png">
+<div align="left">
+<p align="left">You can Load/Save Icon Sets or all current icons and you can reset everything to default:</p>
+<img align="left" src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/9d754783-a17b-4131-9da8-c4a1fc22bc54.png">
 </div>
 <!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
