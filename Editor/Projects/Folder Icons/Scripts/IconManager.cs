@@ -178,19 +178,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 UtilityFunctions.CheckAllFoldersCurrentEmptiness(ref isFolderFilledDict);
 
-                if (persistentFolderIconsData.allFoldersPathList.Count == 0)
-                {
-                    string[] allFolders = AssetDatabase.FindAssets("t:DefaultAsset");
-
-                    persistentFolderIconsData.allFoldersPathList = new List<string>(allFolders.Length);
-
-                    for (int i = 0; i < allFolders.Length; i++)
-                    {
-                        persistentFolderIconsData.allFoldersPathList.Add(AssetDatabase.GUIDToAssetPath(allFolders[i]));
-                    }
-
-                    if (persistentFolderIconsData != null) EditorUtility.SetDirty(persistentFolderIconsData);
-                }
                 int count = persistentFolderIconsData.folderEmptinessList.Count;
 
                 for (int i = 0; i < count; i++)
