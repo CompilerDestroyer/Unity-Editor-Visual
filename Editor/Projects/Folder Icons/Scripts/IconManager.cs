@@ -30,7 +30,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
 
 
-
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
@@ -44,15 +43,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 if (!isLocal)
                 {
-                    Debug.Log("Project is not local");
                     persistentFolderIconsData.packageIsInstalledLocally = false;
                     SavePersistentData();
                     Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
                 }
                 else
                 {
-                    Debug.Log("Project is local");
-
                     persistentFolderIconsData.packageIsInstalledLocally = true;
                     SavePersistentData();
                 }
