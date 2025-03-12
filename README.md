@@ -8,6 +8,7 @@
 
  <p align="center">
   <a href="#Installation">Installation</a> •
+  <a href="#Packages">Packages</a> •
   <a href="#Usage">Usage</a> •
   <a href="#Support">Support</a> •
   <a href="#LICENSE">License</a>
