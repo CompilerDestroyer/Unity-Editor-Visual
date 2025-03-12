@@ -1,10 +1,10 @@
 using UnityEditor.PackageManager;
 using UnityEditor;
 using UnityEditor.PackageManager.Requests;
-using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using System.Linq;
 using System.IO;
 
+using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using Debug = UnityEngine.Debug;
 
 namespace CompilerDestroyer.Editor.EditorVisual

@@ -14,45 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guidTextureList: []
   tempGuidTextureListForIconSets: []
-  folderEmptinessList:
-  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
-      Icons/Data
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
-      Icons/Scripts
-    isFolderEmpty: 1
-  allFoldersPathList:
-  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data/FolderIconsData.asset
-  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/IconManager.cs
+  folderEmptinessList: []
+  allFoldersPathList: []
   iconSetDataList:
   - iconSetName: None
     iconSetData: []
-  - iconSetName: Medieval
-    iconSetData:
-    - folderName: Art
-      icon: {fileID: 2800000, guid: 1a6d4971ba4e93d49b7a7ccab3847ce1, type: 3}
-    - folderName: Prefab
-      icon: {fileID: 2800000, guid: 5884e9f50f8ae7041a1821b8f24a1753, type: 3}
-    - folderName: Documents
-      icon: {fileID: 2800000, guid: 5dc521eece3bc6146b3e47d3b4aa4ecf, type: 3}
-    - folderName: Textures
-      icon: {fileID: 2800000, guid: e5e16fcc2a331fa4caced9d4e2c808fc, type: 3}
-    - folderName: Scripts
-      icon: {fileID: 2800000, guid: bfbd658379a295e4a9d55f647e060ac1, type: 3}
-    - folderName: Fonts
-      icon: {fileID: 2800000, guid: 18312f54b248163428ece4b546122c9d, type: 3}
-    - folderName: Settings
-      icon: {fileID: 2800000, guid: 651823395f21fdd4b8e921cb22f051dc, type: 3}
-    - folderName: Navigation
-      icon: {fileID: 2800000, guid: a0b2d9f0be2333541a3415810aa942cc, type: 3}
-    - folderName: Packages
-      icon: {fileID: 2800000, guid: 45589e0a6d0c3944bb07876ea03648fb, type: 3}
-    - folderName: Models
-      icon: {fileID: 2800000, guid: 2ea02275d95bcd14dba8a1a6c05a8405, type: 3}
-    - folderName: Music
-      icon: {fileID: 2800000, guid: 160bc8d6c0f10464799ba0f17a05cc26, type: 3}
-    - folderName: Music
-      icon: {fileID: 2800000, guid: 160bc8d6c0f10464799ba0f17a05cc26, type: 3}
   currentIconSetIndex: 0
   emptyDefaultFolderIcon: {fileID: 2800000, guid: d4c05a1c219734f4c8e395ddce5b0d18, type: 3}
   defaultFolderIcon: {fileID: 2800000, guid: d767b843737545944bb1a8e9fad7ad9e, type: 3}

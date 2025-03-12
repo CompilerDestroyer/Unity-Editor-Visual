@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine.UIElements;
-using System;
-using System.IO;
 using UnityEngine;
 using CompilerDestroyer.Editor.UIElements;
 
@@ -10,7 +8,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
 {
     public sealed class EditorVisualSettingsWindow : EditorWindow
     {
-        private const string documentationName = "Documentation";
 #if true // Folder Icons Marker
         private const string folderIconsName = "Folder Icons";
 #endif
@@ -46,21 +43,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
 #if true // Folder Icons Marker
             TreeViewItemData<string> folderIconsSetting = new TreeViewItemData<string>(0, folderIconsName);
-#endif
-
-            TreeViewItemData<string> documentationSetting = new TreeViewItemData<string>(2, documentationName);
-
-
-            rootDict.Add(documentationName, null);
-
-#if true // Folder Icons Marker
             rootDict.Add(folderIconsName, FolderIconsSettings.FolderIconsSettingsVisualElement());
-#endif
-
-
-            projectSettingsList.Add(documentationSetting);
-
-#if true // Folder Icons Marker
             projectSettingsList.Add(folderIconsSetting);
 #endif
 

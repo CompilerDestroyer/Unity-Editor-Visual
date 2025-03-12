@@ -6,8 +6,6 @@ using System;
 using System.Linq;
 using UnityEditor.PackageManager;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
-using Codice.Client.BaseCommands.Config;
-
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {

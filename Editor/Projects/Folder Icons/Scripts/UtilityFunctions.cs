@@ -406,7 +406,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             // For vertical folder view
             if (treeView)
             {
-                rect.x += 0.9f;
+                rect.x -= 0.8f;
                 rect.width = 16f + 1.5f;
                 rect.height = 16f;
 
