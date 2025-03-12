@@ -37,6 +37,8 @@ public class ProjectInstalled
         Debug.Log("Remove Editor Visual again in order to remove it!");
         if (packageInfo != null)
         {
+            SessionState.EraseBool("isCheckedFolderEmptiness");
+
             File.Delete(GlobalVariables.ProjectTempInstalledFilePath);
             Events.registeringPackages -= DeleteInstalledTempFile;
         }

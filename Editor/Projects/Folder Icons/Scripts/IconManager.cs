@@ -29,16 +29,20 @@ namespace CompilerDestroyer.Editor.EditorVisual
         [SerializeField] internal static List<string> iconSetNames;
 
 
+
+
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
             AssetOperations();
 
-            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
+            PackageSource packageSource = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
 
             if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
-                if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
+                bool isLocal = packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball;
+
+                if (!isLocal)
                 {
                     persistentFolderIconsData.packageIsInstalledLocally = false;
                     SavePersistentData();

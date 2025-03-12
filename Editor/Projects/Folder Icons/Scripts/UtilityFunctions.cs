@@ -406,7 +406,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
             // For vertical folder view
             if (treeView)
             {
-                rect.width = rect.height = 16f;
+                rect.x += 0.9f;
+                rect.width = 16f + 1.5f;
+                rect.height = 16f;
 
                 // Small offset
                 if (!sideView) rect.x += 3f;
@@ -415,7 +417,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             if (texture2d == null) return;
 
-            EditorGUI.DrawRect(rect, ProjectConstants.projectBackgroundColor);
+            //EditorGUI.DrawRect(rect, ProjectConstants.projectBackgroundColor);
             GUI.DrawTexture(rect, texture2d, ScaleMode.ScaleAndCrop);
         }
 
