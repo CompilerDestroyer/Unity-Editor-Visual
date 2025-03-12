@@ -44,7 +44,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 if (EditorUtility.DisplayDialog("Delete Folder Icons", "This will delete folder icons completely", "ok", "cancel"))
                 {
-                    Directory.Delete(GlobalVariables.FolderIconsPath.Replace("/", "\\"));
+                    Directory.Delete(GlobalVariables.FolderIconsPath.Replace("/", "\\"), true);
 
                     UnityEditor.Compilation.CompilationPipeline.RequestScriptCompilation();
                     AssetDatabase.Refresh();
