@@ -26,16 +26,17 @@
 <h2 align="center">Installation</h2>
 
 <!--Local Installation Part-->
+ <p align= "center"> Unity Editor Visual can be installed locally with unity package manager: </p>
 <p align="center">
-  Folder-Icons can be installed locally with unity package manager:
-![image](https://github.com/user-attachments/assets/0aa5eca3-5b8b-4b27-8473-ab575938763b)
-![image](https://github.com/user-attachments/assets/eda0cbbd-0ea2-4218-89ea-9fc0a62a151a)
-
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0aa5eca3-5b8b-4b27-8473-ab575938763b" width="300"/>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/eda0cbbd-0ea2-4218-89ea-9fc0a62a151a" width="300"/>
+      </td>
+    </tr>
 </p>
-
-<div align="center">
-<img src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/e64eceed-0b52-4aea-bec7-7ecfa9895668.gif">
-</div>
 
 <!--Git Installation Part-->
 <br>
@@ -46,7 +47,7 @@
 
 <br>
 
-<p align="center">Folder-Icons can be installed through git link with unity package manager:</p>
+<p align="center"> Can be installed through git link with unity package manager:</p>
 <div align="center">
 
  ```
@@ -54,9 +55,17 @@ https://github.com/compilerbutcher/Folder-Icons.git
 ```
 </div>
 
-<div align="center">
-<img src="https://github.com/compilerbutcher/Unity-Folder-Icons/assets/97310008/bfe6a37b-a648-4f37-81a3-930ccda1416e.gif">
-</div>
+<p align="center">
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/68f36e67-8195-455f-83dd-42d01f592b79" width="300"/>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/87997059-93fb-46ea-b4d4-fde7ec82b289" width="300"/>
+      </td>
+    </tr>
+</p>
+
 
 <div align="center">
   When you download it with git link, some project files will be in 'Assets' folder because when installed from git, 'Packages' directory is immutable.
