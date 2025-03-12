@@ -24,6 +24,12 @@ namespace CompilerDestroyer.Editor.EditorVisual
             VisualElement rootVisualElement = new VisualElement();
 
 
+            VisualElement headerAndDeleteEverythingContainer = new VisualElement();
+            headerAndDeleteEverythingContainer.style.flexDirection = FlexDirection.Row;
+            headerAndDeleteEverythingContainer.style.justifyContent = Justify.SpaceBetween;
+
+
+
             Label rightPaneHeaderLabel = new Label("Folder Icons");
             rightPaneHeaderLabel.style.unityFontStyleAndWeight = FontStyle.Bold;
             rightPaneHeaderLabel.style.fontSize = 20;
@@ -33,6 +39,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             Button deleteFolderIcons = new Button();
             deleteFolderIcons.text = "Delete Folder Icons";
             deleteFolderIcons.style.marginRight = globalMargin;
+
             deleteFolderIcons.clicked += () => {
 
                 if (EditorUtility.DisplayDialog("Delete Folder Icons", "This will delete folder icons completely", "ok", "cancel"))
@@ -44,7 +51,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 }
 
             };
-
 
 
             Line headerLine = new Line(1f, false, lineColor);
@@ -244,8 +250,11 @@ namespace CompilerDestroyer.Editor.EditorVisual
             addRemoveContainer.Add(addIconSetButton);
             addRemoveContainer.Add(deleteIconSetButton);
 
-            rootVisualElement.Add(rightPaneHeaderLabel);
-            rootVisualElement.Add(deleteFolderIcons);
+
+            headerAndDeleteEverythingContainer.Add(rightPaneHeaderLabel);
+            headerAndDeleteEverythingContainer.Add(deleteFolderIcons);
+
+            rootVisualElement.Add(headerAndDeleteEverythingContainer);
             rootVisualElement.Add(headerLine);
             rootVisualElement.Add(addRemoveContainer);
             rootVisualElement.Add(popupField);
