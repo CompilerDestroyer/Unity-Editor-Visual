@@ -1,7 +1,7 @@
 <!----------------------------------------------------Main Header Part------------------------------------------------------------------ -->
 <h1 align="center">Unity Editor Visual</h1>
 
-<p align="center"> Folder Icons allows you to change the default folder icons in Unity </p>
+<p align="center"> Unity Editor Visual is a powerful customization toolkit that lets you change visual appearance of the Unity Editor </p>
 <img src="https://github.com/compilerbutcher/Folder-Icons/assets/97310008/6505017d-5228-43ce-9d02-a574aa1df4ac.png">
 <br>
 
