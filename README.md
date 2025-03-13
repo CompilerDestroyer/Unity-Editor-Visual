@@ -30,7 +30,7 @@
       <td>Overview of available customization packages</td>
     </tr>
     <tr>
-      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1- folder icons">🗂 Folder Icons</a></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1- Folder Icons">🗂 Folder Icons</a></td>
       <td>Customize folder visuals with custom icons</td>
     </tr>
     <tr>
@@ -50,7 +50,6 @@
 
 <!----------------------------------------------------Installation Part------------------------------------------------------------------ -->
 <h2 align="center">Installation</h2>
-<h2 align="center">1- Folder Icons</h2>
 
 <!--Local Installation Part-->
  <p align= "center"> Unity Editor Visual can be installed locally with unity package manager: </p>
