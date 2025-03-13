@@ -10,12 +10,45 @@
 <br>
 
 
- <p align="center">
-  <a href="#Installation">Installation</a> •
-  <a href="#Packages">Packages</a> •
-  <a href="#Support">Support</a> •
-  <a href="#LICENSE">License</a>
-</p>
+<!-- ----------------------------------------------------Table of Contents----------------------------------------------------- -->
+<h2 align="center">📑 Table of Contents</h2>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#installation">🔧 Installation</a></td>
+      <td>How to install Unity Editor Visual using local or Git-based methods</td>
+    </tr>
+    <tr>
+      <td><a href="#packages">📦 Packages</a></td>
+      <td>Overview of available customization packages</td>
+    </tr>
+    <tr>
+      <td><a href="#folder-icons">🗂 Folder Icons</a></td>
+      <td>Customize folder visuals with icon sets</td>
+    </tr>
+    <tr>
+      <td><a href="#folder-icons-settings">⚙ Folder Icons Settings</a></td>
+      <td>How to configure and use Folder Icons Settings</td>
+    </tr>
+    <tr>
+      <td><a href="#support">💬 Support</a></td>
+      <td>Where to report bugs or request help</td>
+    </tr>
+    <tr>
+      <td><a href="#license">📄 License</a></td>
+      <td>MIT License details</td>
+    </tr>
+  </tbody>
+</table>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+
 
 
 
