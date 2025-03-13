@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEngine;
-using CompilerDestroyer.Editor.UIElements;
+using CompilerDestroyer.Editor.EditorVisual.UIElements;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {

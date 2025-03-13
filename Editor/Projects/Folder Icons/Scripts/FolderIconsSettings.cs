@@ -6,7 +6,7 @@ using System.IO;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using System.Linq;
-using CompilerDestroyer.Editor.UIElements;
+using CompilerDestroyer.Editor.EditorVisual.UIElements;
 using System.Text.RegularExpressions;
 
 namespace CompilerDestroyer.Editor.EditorVisual
