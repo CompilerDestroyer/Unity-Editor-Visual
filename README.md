@@ -30,12 +30,12 @@
       <td>Overview of available customization packages</td>
     </tr>
     <tr>
-      <td><a href="#folder-icons">🗂 Folder Icons</a></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#folder-icons">🗂 Folder Icons</a></td>
       <td>Customize folder visuals with icon sets</td>
     </tr>
     <tr>
       <td><a href="#folder-icons-settings">⚙ Folder Icons Settings</a></td>
-      <td>How to configure and use Folder Icons Settings</td>
+      <td>How to configure and use Folder Icon Settings</td>
     </tr>
     <tr>
       <td><a href="#support">💬 Support</a></td>
@@ -49,13 +49,6 @@
 </table>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
-
-
-
-
-<br>
-<br>
-<!-- ------------------------------------------------------------------------------------------------------------------------------- -->
 
 
 
