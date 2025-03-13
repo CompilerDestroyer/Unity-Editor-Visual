@@ -2,7 +2,7 @@
 <h1 align="center">Unity Editor Visual</h1>
 
 <p align="center"> Unity Editor Visual is a powerful customization toolkit that lets you change visual appearance of the Unity Editor </p>
-<img src="https://github.com/compilerbutcher/Folder-Icons/assets/97310008/6505017d-5228-43ce-9d02-a574aa1df4ac.png">
+<img src="https://github.com/user-attachments/assets/5e9d3770-1e82-47e6-84d5-ae9c941ea61e">
 <br>
 
 
@@ -80,7 +80,8 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 <h2 align="center">Packages</h2>
 <h3 align="left"> 1- Folder Icons</h3>
 <p align="left">Folder Icons lets you change the default Unity icons and create icon sets, which are useful for assigning icons by renaming folders.</p>
-
+<img src="https://github.com/user-attachments/assets/1e03134f-6586-448e-966e-22c80657e191">
+<br>
 <br>
 
 <div align="left">
