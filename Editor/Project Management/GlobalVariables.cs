@@ -16,7 +16,7 @@ namespace CompilerDestroyer.Editor
         public const string FolderIconsPath = ProjectsPath + "/Folder Icons";
 
 
-        public const string ProjectManagerPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager";
+        public const string ProjectManagerPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Management";
 
         // Custom Editor GUIStyle Names
         public const string HeaderLabelGUIStyleName = "Header Label";
