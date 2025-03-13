@@ -50,6 +50,7 @@
 
 <!----------------------------------------------------Installation Part------------------------------------------------------------------ -->
 <h2 align="center">Installation</h2>
+<h2 align="center">1- Folder Icons</h2>
 
 <!--Local Installation Part-->
  <p align= "center"> Unity Editor Visual can be installed locally with unity package manager: </p>
