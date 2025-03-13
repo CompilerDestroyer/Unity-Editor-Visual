@@ -120,8 +120,7 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 </div>
 
 
-<p size>Folder Icon Settings</p>
-<font size="40">This is large text</font>
+- <p> Folder Icons Setting </p>
 
 
 <div align="left">
