@@ -119,7 +119,7 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
   <img src="https://github.com/user-attachments/assets/d669a00e-c2d1-4484-b284-8a9eca346582">
 </div>
 
-<h4 align="left">Folder Icons Settings</h4> 
+## Folder Icons Settings
 
 <div align="left">
 <p align="left">To open Settings, "Tools/Compiler Destroyer/Editor Visual":</p>
