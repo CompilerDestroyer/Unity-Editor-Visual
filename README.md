@@ -1,7 +1,7 @@
 <!----------------------------------------------------Main Header Part------------------------------------------------------------------ -->
 <h1 align="center">Unity Editor Visual</h1>
 
-<p align="center"> Unity Editor Visual is a powerful customization toolkit that lets you change visual appearance of the Unity Editor </p>
+<p align="center"> Unity Editor Visual is a customization toolkit that lets you change visual appearance of the Unity Editor </p>
 <img src="https://github.com/user-attachments/assets/5e9d3770-1e82-47e6-84d5-ae9c941ea61e">
 <br>
 
