@@ -30,7 +30,7 @@
       <td>Overview of available customization packages</td>
     </tr>
     <tr>
-      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1- folder-icons">🗂 Folder Icons</a></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#folder-icons">🗂 Folder Icons</a></td>
       <td>Customize folder visuals with custom icons</td>
     </tr>
     <tr>
