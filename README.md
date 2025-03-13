@@ -119,7 +119,8 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
   <img src="https://github.com/user-attachments/assets/d669a00e-c2d1-4484-b284-8a9eca346582">
 </div>
 
-<span style="font-size: 44px; font-weight: bold;">Folder Icons Settings</span>
+
+<p style="font-size: 55px;">This is a larger paragraph of text.</p>
 
 
 <div align="left">
