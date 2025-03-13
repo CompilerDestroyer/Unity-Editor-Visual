@@ -1,7 +1,7 @@
 <!----------------------------------------------------Main Header Part------------------------------------------------------------------ -->
 <h1 align="center">Unity Editor Visual</h1>
 
-<p align="center"> Unity Editor Visual is a customization toolkit that lets you change visual appearance of the Unity Editor </p>
+<p align="center"> Unity Editor Visual is a toolkit that lets you change visual appearance of the Unity Editor </p>
  <div align="center">
 <img align= "center" src="https://github.com/user-attachments/assets/4b959a29-0792-4bcd-a8f7-c8257d650f48">
 </div>
@@ -120,7 +120,8 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 </div>
 
 
-<p style="font-size: 55px;">This is a larger paragraph of text.</p>
+<p size>Folder Icon Settings</p>
+<font size="40">This is large text</font>
 
 
 <div align="left">
