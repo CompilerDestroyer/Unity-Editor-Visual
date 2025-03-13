@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#folder-icons">🗂 Folder Icons</a></td>
-      <td>Customize folder visuals with icon sets</td>
+      <td>Customize folder visuals with custom icons</td>
     </tr>
     <tr>
       <td><a href="#support">💬 Support</a></td>
