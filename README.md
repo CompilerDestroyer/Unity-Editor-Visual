@@ -104,7 +104,7 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 
 
 <h2 align="center">Packages</h2>
-<h3 align="left">Folder Icons</h3>
+<h3 align="left">1 Folder Icons</h3>
 <p align="left">Folder Icons lets you change the default Unity icons and create icon sets, which are useful for assigning icons by renaming folders.</p>
 <img src="https://github.com/user-attachments/assets/1e03134f-6586-448e-966e-22c80657e191">
 <br>
