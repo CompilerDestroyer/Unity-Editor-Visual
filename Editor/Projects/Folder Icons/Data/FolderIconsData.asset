@@ -14,8 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guidTextureList: []
   tempGuidTextureListForIconSets: []
-  folderEmptinessList: []
-  allFoldersPathList: []
+  folderEmptinessList:
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data
+    isFolderEmpty: 1
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Empty Color Folder Icons
+    isFolderEmpty: 0
+  - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder
+      Icons/Data/Color Folder Icons
+    isFolderEmpty: 0
+  allFoldersPathList:
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data/FolderIconsData.asset
   iconSetDataList:
   - iconSetName: None
     iconSetData: []

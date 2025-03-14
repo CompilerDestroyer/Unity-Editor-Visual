@@ -185,11 +185,11 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 IconManager.isFolderFilledDict.TryGetValue(folderPath, out bool isFolderFilled);
                 if (isFolderFilled)
                 {
-                    UtilityFunctions.DrawTextures(selectionRect, IconManager.projectCurrentFolderTexture);
+                    UtilityFunctions.DrawTextures(guid, selectionRect, IconManager.projectCurrentFolderTexture);
                 }
                 else
                 {
-                    UtilityFunctions.DrawTextures(selectionRect, IconManager.projectCurrentEmptyFolderTexture);
+                    UtilityFunctions.DrawTextures(guid, selectionRect, IconManager.projectCurrentEmptyFolderTexture);
                 }
 
             }
@@ -208,7 +208,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         internal static void DrawFolderTexture(string guid, Rect selectionRect)
         {
             if (guid != AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Selection.activeInstanceID))) return;
-            UtilityFunctions.DrawTextures(selectionRect, IconManager.projectCurrentCustomTexture);
+            UtilityFunctions.DrawTextures(guid, selectionRect, IconManager.projectCurrentCustomTexture);
         }
         internal static void ChangeFolderTexture()
         {

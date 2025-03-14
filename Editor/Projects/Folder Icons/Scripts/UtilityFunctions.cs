@@ -4,6 +4,7 @@ using System.IO;
 using System.Collections.Generic;
 using System;
 using System.Linq;
+using static PlasticPipe.Server.MonitorStats;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
@@ -397,8 +398,11 @@ namespace CompilerDestroyer.Editor.EditorVisual
             }
         }
 
+        private static Color blueColor = new Color(0.172549f, 0.3647059f, 0.5294118f);
+        private static Color greyColor = new Color(0.3019608f, 0.3019608f, 0.3019608f);
+        private static string[] previousGuid;
         // Draw one item in the project window
-        internal static void DrawTextures(Rect rect, Texture2D texture2d)
+        internal static void DrawTextures(string guid, Rect rect, Texture2D texture2d)
         {
             bool treeView = rect.width > rect.height;
             bool sideView = rect.x != 14;
@@ -406,8 +410,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             // For vertical folder view
             if (treeView)
             {
-                rect.x -= 0.8f;
-                rect.width = 16f + 1.5f;
+                rect.width = 16f;
                 rect.height = 16f;
 
                 // Small offset
@@ -417,7 +420,79 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
             if (texture2d == null) return;
 
-            //EditorGUI.DrawRect(rect, ProjectConstants.projectBackgroundColor);
+
+            if (Selection.assetGUIDs.Length > 0)
+            {
+                previousGuid = Selection.assetGUIDs;
+            }
+
+            foreach (string selectedGuid in Selection.assetGUIDs)
+            {
+                if (selectedGuid == guid)
+                {
+                    EditorGUI.DrawRect(rect, blueColor);
+
+                }
+            }
+            if (Selection.assetGUIDs.Length == 0)
+            {
+                if (previousGuid != null)
+                {
+                    for (int i = 0; i < previousGuid.Length; i++)
+                    {
+                        string currentGuid = previousGuid[i];
+
+                        if (currentGuid == guid)
+                        {
+                            EditorGUI.DrawRect(rect, greyColor);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (EditorWindow.focusedWindow != null)
+                {
+                    if (EditorWindow.focusedWindow.titleContent.text != "Project")
+                    {
+                        if (previousGuid != null)
+                        {
+                            for (int i = 0; i < previousGuid.Length; i++)
+                            {
+                                string currentGuid = previousGuid[i];
+
+                                if (currentGuid == guid)
+                                {
+                                    EditorGUI.DrawRect(rect, greyColor);
+                                }
+                            }
+                        }
+                    }
+                }
+                else if (EditorWindow.focusedWindow == null)
+                {
+                    if (previousGuid != null)
+                    {
+                        for (int i = 0; i < previousGuid.Length; i++)
+                        {
+                            string currentGuid = previousGuid[i];
+
+                            if (currentGuid == guid)
+                            {
+                                EditorGUI.DrawRect(rect, greyColor);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (previousGuid != null)
+            {
+                if (!previousGuid.Contains(guid))
+                {
+                    EditorGUI.DrawRect(rect, ProjectConstants.projectBackgroundColor);
+                }
+            }
             GUI.DrawTexture(rect, texture2d, ScaleMode.ScaleAndCrop);
         }
 
@@ -439,9 +514,11 @@ namespace CompilerDestroyer.Editor.EditorVisual
 
                 IconManager.isFolderFilledDict.TryGetValue(folderPath, out bool outputBool);
                 if (outputBool)
-                    DrawTextures(selectionRect, IconManager.persistentFolderIconsData.defaultFolderIcon);
+                {
+                    DrawTextures(guid, selectionRect, IconManager.persistentFolderIconsData.defaultFolderIcon);
+                }
                 else
-                    DrawTextures(selectionRect, IconManager.persistentFolderIconsData.emptyDefaultFolderIcon);
+                    DrawTextures(guid, selectionRect, IconManager.persistentFolderIconsData.emptyDefaultFolderIcon);
             }
 
             else
@@ -457,16 +534,16 @@ namespace CompilerDestroyer.Editor.EditorVisual
                         IconManager.isFolderFilledDict.TryGetValue(folderPath, out bool outputBool);
                         if (outputBool)
                         {
-                            DrawTextures(selectionRect, textureData.textureData.folderTexture);
+                            DrawTextures(guid, selectionRect, textureData.textureData.folderTexture);
                         }
                         else
                         {
-                            DrawTextures(selectionRect, textureData.textureData.emptyFolderTexture);
+                            DrawTextures(guid, selectionRect, textureData.textureData.emptyFolderTexture);
                         }
                     }
                     else if (textureData.textureData.customTexture != null)
                     {
-                        DrawTextures(selectionRect, textureData.textureData.customTexture);
+                        DrawTextures(guid, selectionRect, textureData.textureData.customTexture);
                     }
                 }
             }
