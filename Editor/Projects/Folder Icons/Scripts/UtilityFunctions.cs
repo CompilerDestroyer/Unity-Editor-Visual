@@ -4,7 +4,6 @@ using System.IO;
 using System.Collections.Generic;
 using System;
 using System.Linq;
-using static PlasticPipe.Server.MonitorStats;
 
 namespace CompilerDestroyer.Editor.EditorVisual
 {
