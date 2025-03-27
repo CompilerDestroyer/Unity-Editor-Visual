@@ -1353,7 +1353,7 @@ MonoBehaviour:
   - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline/SettingsStrippingResults
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor
-    isFolderEmpty: 1
+    isFolderEmpty: 0
   - folderPath: Packages/com.unity.render-pipelines.universal/Textures/2D
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.cinemachine/Editor/EditorResources/Icons
@@ -2504,7 +2504,6 @@ MonoBehaviour:
   - Packages/com.compilerdestroyer.editorvisual/Editor
   - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements
   - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management
-  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Manager
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons
   - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Data
@@ -3113,6 +3112,23 @@ MonoBehaviour:
   - Packages/com.unity.ide.visualstudio/Editor/ProjectGeneration
   - Packages/com.unity.ide.visualstudio/Editor/Testing
   - Packages/com.unity.ide.visualstudio/Editor/VSWhere
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsSettings.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsPostproccesor.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/SettingsWindow.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/UtilityFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/HeaderFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/GlobalVariables.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/ProjectInstalled.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/ProjectConstants.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderPopupWindowContent.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements/Line.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderAsset.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements/SettingsPanel.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/Structures.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/PersistentFolderIconsData.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/IconManager.cs
+  - Packages/com.compilerdestroyer.editorvisual/README.md
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/EmbedEditorVisualProject.cs
   iconSetDataList:
   - iconSetName: None
     iconSetData: []

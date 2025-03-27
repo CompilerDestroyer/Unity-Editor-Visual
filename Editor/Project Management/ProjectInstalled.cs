@@ -19,6 +19,11 @@ public class ProjectInstalled
 
     private static void CreateInstalledTempFile()
     {
+        if (!Directory.Exists(GlobalVariables.ProjectTempDirectoryPath))
+        {
+            Directory.CreateDirectory(GlobalVariables.ProjectTempDirectoryPath);
+        }
+
         if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
         {
             PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
