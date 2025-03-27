@@ -74,9 +74,9 @@ namespace CompilerDestroyer.Editor.EditorVisual
             {
                 if (Request.Status == StatusCode.Success)
                 {
-                    //File.Delete(thisScriptPath);
-                    //File.Delete(thisScriptPath + ".meta");
-                    //AssetDatabase.Refresh();
+                    File.Delete(thisScriptPath);
+                    File.Delete(thisScriptPath + ".meta");
+                    AssetDatabase.Refresh();
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
