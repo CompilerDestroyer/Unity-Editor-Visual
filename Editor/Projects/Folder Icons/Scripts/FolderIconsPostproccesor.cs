@@ -54,7 +54,15 @@ namespace CompilerDestroyer.Editor.EditorVisual
                         IconManager.persistentFolderIconsData.allFoldersPathList.Remove(deletedAsset);
                     }
 
-                    string deletedAssetParent = Path.GetDirectoryName(deletedAsset).Replace("\\", "/");
+                    string deletedAssetParent = null;
+                    try
+                    {
+                        deletedAssetParent = Path.GetDirectoryName(deletedAsset).Replace("\\", "/");
+                    }
+                    catch
+                    {
+                        return;
+                    }
 
                     UtilityFunctions.UpdateFolderEmptyDict(deletedAssetParent, ref IconManager.isFolderFilledDict);
 

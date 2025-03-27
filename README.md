@@ -165,7 +165,7 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 </p>
 
 <h2 align="center">License</h2>
-<p align="center">MIT LICENSE:  
+<p align="center">MIT LICENSE:
 <a href="https://github.com/compilerbutcher/Unity-Editor-Visual/blob/main/LICENSE">LICENSE</a>
-</p>
+ <p align="center">You can do whatever you want. Just don't try to re-upload and sell it on anywhere.</p>
 </div>
