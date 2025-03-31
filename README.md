@@ -3,7 +3,8 @@
 
 <p align="center"> Unity Editor Visual is a toolkit that lets you change visual appearance of the Unity Editor </p>
  <div align="center">
-<img align= "center" src="https://github.com/user-attachments/assets/4b959a29-0792-4bcd-a8f7-c8257d650f48">
+<img align= "center" src=![Unity Editor Visual](https://github.com/user-attachments/assets/eaba0597-ba6f-491c-b161-f624cde882ec)
+"">
 </div>
 
 
