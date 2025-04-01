@@ -8,7 +8,7 @@
     "name": "Compiler Destroyer",
     "email": "metamorfikd@gmail.com"
   },
-  "gitDependencies":{
+  "gitDependencies":[
     "https://github.com/oleghcp/UnityTools.git"
-  }
+  ]
 }
