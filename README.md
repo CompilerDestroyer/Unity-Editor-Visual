@@ -160,11 +160,11 @@ When removing it, make sure to remove both the embedded Unity Editor Visual pack
 <div align= "center">
 <h2 align="center">Support</h2>
 <p align="center">If you encounter any problems or bugs, create new issue in Issues page:
-  <a href="https://github.com/compilerbutcher/Unity-Editor-Visual/issues">Issues</a>
+  <a href="https://github.com/compilerdestroyer/Unity-Editor-Visual/issues">Issues</a>
 </p>
 
 <h2 align="center">License</h2>
 <p align="center">MIT LICENSE:
-<a href="https://github.com/compilerbutcher/Unity-Editor-Visual/blob/main/LICENSE">LICENSE</a>
+<a href="https://github.com/compilerdestroyer/Unity-Editor-Visual/blob/main/LICENSE">LICENSE</a>
  <p align="center">You can do whatever you want. Just don't try to re-upload and sell it on anywhere.</p>
 </div>
