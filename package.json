@@ -9,6 +9,6 @@
     "email": "metamorfikd@gmail.com"
   },
   "git-dependencies":{
-    
+    "https://github.com/oleghcp/UnityTools.git"
   }
 }
