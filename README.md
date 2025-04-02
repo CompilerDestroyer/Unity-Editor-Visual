@@ -10,7 +10,7 @@
 
 
 <!-- ----------------------------------------------------Table of Contents----------------------------------------------------- -->
-<h2 align="center">📑 Table of Contents</h2>
+<h2 align="center">Table of Contents</h2>
 
 <table align="center" border="1" cellpadding="10" cellspacing="0">
   <thead>
@@ -21,23 +21,23 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="#installation">🔧 Installation</a></td>
+      <td><a href="#installation">Installation</a></td>
       <td>How to install Unity Editor Visual using local or Git-based methods</td>
     </tr>
     <tr>
-      <td><a href="#packages">📦 Packages</a></td>
+      <td><a href="#packages">Packages</a></td>
       <td>Overview of available customization packages</td>
     </tr>
     <tr>
-      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1--folder-icons">🗂 Folder Icons</a></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1--folder-icons">Folder Icons</a></td>
       <td>Customize folder visuals with custom icons</td>
     </tr>
     <tr>
-      <td><a href="#support">💬 Support</a></td>
+      <td><a href="#support">Support</a></td>
       <td>Where to report bugs or request help</td>
     </tr>
     <tr>
-      <td><a href="#license">📄 License</a></td>
+      <td><a href="#license">License</a></td>
       <td>MIT License details</td>
     </tr>
   </tbody>
